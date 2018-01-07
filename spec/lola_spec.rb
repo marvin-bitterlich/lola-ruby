@@ -40,7 +40,7 @@ RSpec.describe Lola do
     describe 'query string tests' do
       it 'can print (s + d)' do
         expect(
-            (:s + :d).inspect
+          (:s + :d).inspect
         ).to eq '(s + d)'
       end
 
@@ -52,19 +52,19 @@ RSpec.describe Lola do
 
       it 'can print (s ⇒ d)' do
         expect(
-            (:s.⇒ :d).inspect
+          (:s.⇒ :d).inspect
         ).to eq '(s ⇒ d)'
       end
 
       it 'can print (((s + d) + x) + something)' do
         expect(
-            (:s + :d + :x + :something).inspect
+          (:s + :d + :x + :something).inspect
         ).to eq '(((s + d) + x) + something)'
       end
 
       it 'can print ((s + d) + (x + something))' do
         expect(
-            ((:s + :d) + (:x + :something)).inspect
+          ((:s + :d) + (:x + :something)).inspect
         ).to eq '((s + d) + (x + something))'
       end
     end
@@ -106,6 +106,18 @@ RSpec.describe Lola do
         expect(
           (:s + :d).evaluate(s: 1, d: 2)
         ).to be 3
+      end
+    end
+  end
+
+  describe 'DSL' do
+    describe 'smoke tests' do
+      it 'does basic things' do
+        Lola.spec do
+          define :something do
+            (:s + :d)
+          end
+        end
       end
     end
   end
