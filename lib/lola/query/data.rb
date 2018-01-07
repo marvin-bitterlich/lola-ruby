@@ -24,6 +24,10 @@ module Lola
       "<Δ↦#{@value.inspect}>"
     end
 
+    def to_s
+      query_inspect
+    end
+
     def query_inspect
       @value.to_s
     end

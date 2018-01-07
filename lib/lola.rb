@@ -7,10 +7,17 @@ module Lola
   require 'lola/query/query'
 
   class Data
-    include Lola::Joinable
+    prepend Lola::Joinable
+  end
+
+  def self.spec(&block)
+
   end
 end
 
 class Symbol
-  include Lola::Joinable
+  prepend Lola::Joinable
+  def query_inspect
+    to_s
+  end
 end

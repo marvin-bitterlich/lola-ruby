@@ -29,6 +29,10 @@ module Lola
       inspect
     end
 
+    def query_inspect
+      to_s
+    end
+
     private
     def check_evaluate(query, values)
       if query.respond_to? :evaluate
