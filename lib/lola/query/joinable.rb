@@ -1,15 +1,15 @@
 module Lola
   module Joinable
     def +(other)
-      Lola::Query.new(self, other.to_sym, :+)
+      Lola::Query.new(Lola::Data.new(self), Lola::Data.new(other), :+)
     end
 
     def -(other)
-      Lola::Query.new(self, other.to_sym, :-)
+      Lola::Query.new(Lola::Data.new(self), Lola::Data.new(other), :-)
     end
 
     def ⇒(other)
-      Lola::Query.new(self, other.to_sym, :⇒)
+      Lola::Query.new(Lola::Data.new(self), Lola::Data.new(other), :⇒)
     end
 
     def query_inspect

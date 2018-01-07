@@ -31,12 +31,6 @@ module Lola
 
     private
     def check_evaluate(query, values)
-      if query.instance_of? Symbol
-        if values.respond_to? query
-          return values.send query
-        end
-        return values[query]
-      end
       if query.respond_to? :evaluate
         return query.evaluate(values)
       end

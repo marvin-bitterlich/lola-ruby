@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'hashie'
 
 RSpec.describe Lola do
   describe 'general lola module' do
@@ -16,6 +17,10 @@ RSpec.describe Lola do
   describe 'query building' do
     describe 'smoke tests' do
       it 'does not raise any exception on basic +' do
+        :s + :d
+      end
+
+      it 'does not raise any exception on basic -' do
         :s + :d
       end
 
@@ -37,6 +42,12 @@ RSpec.describe Lola do
         expect(
             (:s + :d).inspect
         ).to eq '(s + d)'
+      end
+
+      it 'can print (s - d)' do
+        expect(
+          (:s - :d).inspect
+        ).to eq '(s - d)'
       end
 
       it 'can print (s ⇒ d)' do
@@ -63,6 +74,18 @@ RSpec.describe Lola do
     describe 'smoke tests' do
       it 'does not raise any exceptions on basic +' do
         (:s + :d).evaluate(s: 1, d: 2)
+      end
+
+      it 'does not raise any exceptions on basic -' do
+        (:s - :d).evaluate(s: 1, d: 2)
+      end
+
+      it 'does not raise any exceptions on method uses' do
+        (:s - :d).evaluate(Hashie::Mash.new s: 1, d: 2)
+      end
+
+      it 'allows static variables' do
+        (:s - 2).evaluate(s: 1)
       end
 
       it 'raises evaluate errors on type problems' do
