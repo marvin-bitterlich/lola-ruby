@@ -120,5 +120,16 @@ RSpec.describe Lola do
         end
       end
     end
+
+    describe 'usage tests' do
+      it 'does basic model calculation' do
+        spec = Lola.spec do
+          define :something do
+            (:s + :d)
+          end
+        end
+
+      end
+    end
   end
 end

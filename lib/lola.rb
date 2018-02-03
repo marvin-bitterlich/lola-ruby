@@ -5,6 +5,7 @@ module Lola
   require 'lola/query/data'
   require 'lola/query/joinable'
   require 'lola/query/query'
+  require 'lola/store/data_store'
   require 'lola/dsl/spec'
 
   class Data
@@ -14,6 +15,7 @@ module Lola
   def self.spec(&block)
     thing = Docile.dsl_eval(Lola::Spec.new, &block)
     puts thing
+    thing
   end
 end
 
