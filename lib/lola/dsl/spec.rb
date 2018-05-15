@@ -23,7 +23,7 @@ module Lola
     end
 
     def print(symbol)
-      mapping(symbol).query_inspect
+      mapping(symbol)[:data].query_inspect
     end
 
     def trigger?(symbol)

@@ -139,6 +139,23 @@ RSpec.describe Lola do
           trigger :something
         end
       end
+      it 'does not allow empty trigger' do
+        expect {
+          Lola.spec do
+            trigger :something
+          end
+        }.to raise_error Lola::MappingError
+      end
+      it 'does a look back' do
+        Lola.spec do
+          define :s do
+            1
+          end
+          define :something do
+            (:s + :d) > look_back(:s, 1, 1)
+          end
+        end
+      end
     end
 
     describe 'store tests' do
