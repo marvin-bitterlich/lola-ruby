@@ -121,15 +121,39 @@ RSpec.describe Lola do
       end
     end
 
+=begin
     describe 'usage tests' do
-      it 'does basic model calculation' do
-        spec = Lola.spec do
-          define :something do
-            (:s + :d)
+
+      class Balance
+        Lola.spec do
+          define :difference do
+            look_back(:balance, 1, 0) - :balance
           end
+          define :big_deduction do
+            look_back(:balance, 1, 0) / 100
+          end
+          define :on_hold do
+            :difference > :big_deduction
+          end
+          trigger :on_hold
         end
 
+        attr_accessor :balance
+
+        def send(to, amount)
+          raise 'on hold!' if amount > (balance / 100)
+          self.balance -= amount
+          self.save # error happens here
+          to.receive(balance)
+        end
+      end
+      it 'does a big transaction that should be on hold' do
+        balance = Balance.new
+        balance.balance = 1000
+        balance.save
+        balance.send(Balance.new, 100)
       end
     end
+=end
   end
 end
