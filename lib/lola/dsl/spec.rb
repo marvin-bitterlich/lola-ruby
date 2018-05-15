@@ -5,8 +5,8 @@ module Lola
     end
 
     def define(symbol, &block)
-      thing = yield block
-      puts thing, symbol
+      thing = Lola::Data.new(yield block)
+      # puts thing, symbol
       @store.define symbol, thing
     end
 
@@ -16,6 +16,18 @@ module Lola
 
     def look_back(symbol, steps, default)
       @store.look_back symbol, steps, default
+    end
+
+    def mapping(symbol)
+      @store.retrieve symbol
+    end
+
+    def print(symbol)
+      mapping(symbol).query_inspect
+    end
+
+    def trigger?(symbol)
+      @store.trigger? symbol
     end
   end
 end

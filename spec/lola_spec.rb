@@ -119,6 +119,54 @@ RSpec.describe Lola do
           end
         end
       end
+      it 'does not allow double assign' do
+        expect {
+          Lola.spec do
+            define :something do
+              (:s + :d)
+            end
+            define :something do
+              (:s + :e)
+            end
+          end
+        }.to raise_error Lola::MappingError
+      end
+      it 'does a trigger' do
+        Lola.spec do
+          define :something do
+            (:s + :d) > 5
+          end
+          trigger :something
+        end
+      end
+    end
+
+    describe 'store tests' do
+      it 'does basic things' do
+        spec = Lola.spec do
+          define :something do
+            (:s + :d)
+          end
+        end
+        expect(spec.print(:something)).to eq '(s + d)'
+      end
+      it 'does a trigger' do
+        spec = Lola.spec do
+          define :something do
+            (:s + :d) > 5
+          end
+          trigger :something
+        end
+        expect(spec.trigger? :something).to be_truthy
+      end
+      it 'does not set triggers all the time' do
+        spec = Lola.spec do
+          define :something do
+            (:s + :d) > 5
+          end
+        end
+        expect(spec.trigger? :something).to be_falsey
+      end
     end
 
 =begin

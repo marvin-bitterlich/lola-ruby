@@ -1,25 +1,24 @@
 module Lola
   module Joinable
-    def +(other)
-      return super(other) unless matches_prepend other
-      Lola::Query.new(Lola::Data.new(self), Lola::Data.new(other), :+)
-    end
-
-    def -(other)
-      return super(other) unless matches_prepend other
-      Lola::Query.new(Lola::Data.new(self), Lola::Data.new(other), :-)
-    end
-
-    def ⇒(other)
-      return super(other) unless matches_prepend other
-      Lola::Query.new(Lola::Data.new(self), Lola::Data.new(other), :⇒)
+    def method_missing(method, *args)
+      if BINARY_OPERATORS.include? method
+        return binary_match(method, args.first)
+      end
+      return super
     end
 
     private
+
+    BINARY_OPERATORS = Set[:+, :-, :<, :>, :⇒]
+
+    def binary_match(operator, other)
+      return self.class.superclass.send(operator, other) unless matches_prepend other
+      Lola::Query.new(Lola::Data.new(self), Lola::Data.new(other), operator)
+    end
+
     def matches_prepend(other)
-      return true if self.kind_of? Lola::Query
-      [Numeric, Symbol, Lola::Data, Lola::Query].find do |clazz|
-        other.kind_of? clazz
+      [Symbol, Lola::Data, Lola::Query].find do |clazz|
+        self.kind_of?(clazz) || other.kind_of?(clazz)
       end
     end
   end
