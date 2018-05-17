@@ -184,6 +184,17 @@ RSpec.describe Lola do
         end
         expect(spec.trigger? :something).to be_falsey
       end
+      it 'does a look back' do
+        spec = Lola.spec do
+          define :s do
+            1
+          end
+          define :something do
+            (:s + :d) > look_back(:s, 1, 1)
+          end
+        end
+        expect(spec.print(:something)).to eq '((s + d) > look_back(s, 1, 1))'
+      end
     end
 
 =begin

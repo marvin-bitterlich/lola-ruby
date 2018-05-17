@@ -9,7 +9,7 @@ module Lola
     end
 
     def inspect
-      "<#{@symbol.inspect}Θ#{@steps.inspect}↦#{@default.query_inspect}>"
+      "look_back(#{@symbol}, #{@steps.inspect}, #{@default.query_inspect})"
     end
 
     def evaluate(values)

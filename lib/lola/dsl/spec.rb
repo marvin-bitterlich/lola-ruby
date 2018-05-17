@@ -29,5 +29,9 @@ module Lola
     def trigger?(symbol)
       @store.trigger? symbol
     end
+
+    def inspect
+      "<Lola:Spec #{@store.inspect}>"
+    end
   end
 end

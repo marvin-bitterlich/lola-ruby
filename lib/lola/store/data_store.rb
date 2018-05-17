@@ -38,5 +38,11 @@ module Lola
     def trigger?(symbol)
       @triggers.include?(symbol)
     end
+
+    def inspect
+      mappings = @mappings.map {|k,m| "#{k}: #{m[:data].inspect}"}.join(",\n\t")
+      triggers = @triggers.map {|m| m.to_s}.join(', ')
+      "mappings: {\n\t#{mappings}\n}, triggers: {#{triggers}}"
+    end
   end
 end

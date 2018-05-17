@@ -21,7 +21,7 @@ module Lola
     end
 
     def inspect
-      "<Δ↦#{@value.inspect}>"
+      "#{@value.inspect}"
     end
 
     def to_s
