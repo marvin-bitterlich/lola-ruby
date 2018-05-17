@@ -7,6 +7,7 @@ module Lola
   require 'lola/query/joinable'
   require 'lola/query/query'
   require 'lola/query/look_back'
+  require 'lola/store/stream'
   require 'lola/store/data_store'
   require 'lola/dsl/spec'
 

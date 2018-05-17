@@ -23,7 +23,7 @@ module Lola
     end
 
     def print(symbol)
-      mapping(symbol)[:data].query_inspect
+      mapping(symbol).query
     end
 
     def trigger?(symbol)
@@ -32,6 +32,10 @@ module Lola
 
     def inspect
       "<Lola:Spec #{@store.inspect}>"
+    end
+
+    def evaluate(values={})
+      @store.evaluate(values)
     end
   end
 end

@@ -197,6 +197,24 @@ RSpec.describe Lola do
       end
     end
 
+    describe 'evaluation tests' do
+      it 'does basic constants' do
+        spec = Lola.spec do
+          define :something do
+            1
+          end
+          define :x do
+            look_back(:something, 1, -51)
+          end
+        end
+        puts spec.inspect
+        expect(spec.evaluate).to be_truthy
+        puts spec.inspect
+        expect(spec.evaluate).to be_truthy
+        puts spec.inspect
+      end
+    end
+
 =begin
     describe 'usage tests' do
 

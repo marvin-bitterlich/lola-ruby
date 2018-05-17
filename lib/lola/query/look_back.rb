@@ -13,7 +13,7 @@ module Lola
     end
 
     def evaluate(values)
-      raise 'not yet implemented'
+      values[:__retrieve_look_back__].call(@symbol, @steps) || @default
     rescue => e
       raise Lola::EvaluationError, "#{e.message} in #{self.query_inspect}"
     end
