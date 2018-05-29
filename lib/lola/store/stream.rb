@@ -1,10 +1,13 @@
 module Lola
   class Stream
-    # @param [Lola::Data] query
-    def initialize(query)
-      @query = query
+    def initialize
+      @query = nil
       @look_back = 1
       @stream = []
+    end
+
+    def attach_query(query)
+      @query = query
     end
 
     # @return [String]

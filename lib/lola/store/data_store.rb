@@ -2,28 +2,37 @@ module Lola
   class DataStore
     def initialize
       @mappings = {}
-      @triggers = Set.new
+      @triggers = {}
+      @reserved = nil
+    end
+
+    def reserve(symbol, &block)
+      if @mappings.key? symbol
+        raise MappingError, "In mapping #{@mappings.inspect} key #{symbol} was overridden from #{@mappings[symbol].inspect}"
+      end
+      @mappings[symbol] = Lola::Stream.new
+      yield block
     end
 
     # @param [Symbol] symbol
     def define(symbol, query)
-      if @mappings.key? symbol
-        raise MappingError, "In mapping #{@mappings.inspect} key #{symbol} was overridden from #{@mappings[symbol].inspect} to #{query.inspect}"
+      unless @mappings.key? symbol
+        raise MappingError, "Cannot define #{query.inspect} on missing key #{symbol} in mapping #{@mappings.inspect}"
       end
-      @mappings[symbol] = Lola::Stream.new query
+      @mappings[symbol].attach_query query
     end
 
     # @param [Symbol] symbol
-    def trigger(symbol)
+    def trigger(symbol, reason='')
       unless @mappings.key? symbol
         raise MappingError, "Cannot add trigger on missing key #{symbol} in mapping #{@mappings.inspect}"
       end
-      @triggers.add symbol
+      @triggers[symbol] = reason
     end
 
     # @param [Symbol] symbol
     def look_back(symbol, steps, default)
-      unless @mappings.key? symbol
+      unless @mappings.key?(symbol)
         raise MappingError, "Cannot look back on missing key #{symbol} in mapping #{@mappings.inspect}"
       end
       retrieve(symbol).keep_at_least(steps)
@@ -45,8 +54,8 @@ module Lola
     def inspect
       mappings = @mappings.map {|k,m| "#{k}: #{m.query}"}.join(",\n\t")
       streams = @mappings.map {|k,m| "#{k}: #{m.stream}"}.join(",\n\t")
-      triggers = @triggers.map {|m| m.to_s}.join(', ')
-      "mappings: {\n\t#{mappings}\n}, streams: {\n\t#{streams}\n}, triggers: {#{triggers}}"
+      triggers = @triggers.map {|k,m| "#{k}: '#{m}'"}.join("\n\t")
+      "mappings: {\n\t#{mappings}\n}, streams: {\n\t#{streams}\n}, triggers: {\n\t#{triggers}\n}"
     end
 
     def retrieve_look_back(symbol, steps)
@@ -59,9 +68,16 @@ module Lola
         result = mapping.evaluate(values)
         values[key] = result
       end
+      @triggers.each do |trigger, reason|
+        trigger_value = values[trigger]
+        if trigger_value
+          raise Lola::TriggerError.new(reason)
+        end
+      end
       @mappings.each do |key, mapping|
         mapping.push(values[key])
       end
+      values
     end
   end
 end

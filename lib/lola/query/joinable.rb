@@ -7,6 +7,14 @@ module Lola
       return super
     end
 
+    def self.override_class_comparisons(overridden_class)
+      BINARY_OPERATORS.each do |operator|
+        overridden_class.send(:define_method, operator) do |other|
+          self.method_missing(operator, other)
+        end
+      end
+    end
+
     private
 
     BINARY_OPERATORS = Set[:+, :-, :<, :>, :⇒]

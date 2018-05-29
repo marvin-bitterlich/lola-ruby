@@ -7,9 +7,6 @@ module Lola
     def evaluate(values)
       return @value if @value.kind_of? Numeric
       if @value.kind_of? Symbol
-        if values.respond_to? @value
-          return values.send @value
-        end
         return values[@value]
       end
       if @value.respond_to? :evaluate

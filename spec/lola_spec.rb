@@ -207,11 +207,39 @@ RSpec.describe Lola do
             look_back(:something, 1, -51)
           end
         end
-        puts spec.inspect
         expect(spec.evaluate).to be_truthy
-        puts spec.inspect
         expect(spec.evaluate).to be_truthy
-        puts spec.inspect
+      end
+      it 'does basic triggers' do
+        expect {
+          spec = Lola.spec do
+            define :something do
+              1
+            end
+            trigger :something
+          end
+          expect(spec.evaluate).to be_truthy
+        }.to raise_error Lola::TriggerError
+      end
+      it 'does complex triggers' do
+        expect {
+          spec = Lola.spec do
+            define :one do
+              1
+            end
+            define :count do
+              look_back(:count, 1, 0) + :one
+            end
+            define :limit_reached do
+              :count > 3
+            end
+            trigger :limit_reached
+          end
+          spec.evaluate # count => 1
+          spec.evaluate # count => 2
+          spec.evaluate # count => 3
+          spec.evaluate # count => 4 ⇒ error
+        }.to raise_error Lola::TriggerError
       end
     end
 

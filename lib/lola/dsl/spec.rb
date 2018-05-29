@@ -5,9 +5,10 @@ module Lola
     end
 
     def define(symbol, &block)
-      thing = Lola::Data.new(yield block)
-      # puts thing, symbol
-      @store.define symbol, thing
+      @store.reserve symbol do
+        thing = Lola::Data.new(yield block)
+        @store.define symbol, thing
+      end
     end
 
     def trigger(symbol)
@@ -34,7 +35,7 @@ module Lola
       "<Lola:Spec #{@store.inspect}>"
     end
 
-    def evaluate(values={})
+    def evaluate(values = {})
       @store.evaluate(values)
     end
   end

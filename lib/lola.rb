@@ -3,6 +3,7 @@ require 'lola/version'
 module Lola
   require 'lola/errors/evaluation_error'
   require 'lola/errors/mapping_error'
+  require 'lola/errors/trigger_error'
   require 'lola/query/data'
   require 'lola/query/joinable'
   require 'lola/query/query'
@@ -35,3 +36,5 @@ class Integer
     to_s
   end
 end
+
+Lola::Joinable.override_class_comparisons(Symbol)
