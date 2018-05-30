@@ -4,8 +4,8 @@ module Lola
       @store = DataStore.new
     end
 
-    def define(symbol, &block)
-      @store.reserve symbol do
+    def define(symbol, type, &block)
+      @store.reserve symbol, type do
         thing = Lola::Data.new(yield block)
         @store.define symbol, thing
       end

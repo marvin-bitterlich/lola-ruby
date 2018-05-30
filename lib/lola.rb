@@ -4,6 +4,7 @@ module Lola
   require 'lola/errors/evaluation_error'
   require 'lola/errors/mapping_error'
   require 'lola/errors/trigger_error'
+  require 'lola/errors/type_error'
   require 'lola/query/data'
   require 'lola/query/joinable'
   require 'lola/query/query'

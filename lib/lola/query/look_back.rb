@@ -29,5 +29,12 @@ module Lola
     def query_inspect
       to_s
     end
+
+    def compute_types(types)
+      unless types.key? @symbol
+        raise Lola::TypeError, "Look Back Reference #{@symbol.inspect} has no type in mapping #{types.inspect}"
+      end
+      types[@symbol]
+    end
   end
 end

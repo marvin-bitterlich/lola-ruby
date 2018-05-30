@@ -33,6 +33,25 @@ module Lola
       to_s
     end
 
+    def compute_types(types)
+      left_type = @left.compute_types(types)
+      right_type = @right.compute_types(types)
+      if left_type == :numeric
+        if [:+, :-, :*, :/].include? @operand
+          return :numeric if right_type == :numeric
+        end
+        if [:>, :<, :>=, :<=, :==, :!=].include? @operand
+          return :boolean if right_type == :numeric
+        end
+      end
+      if left_type == :boolean
+        if [:==, :!=].include? @operand
+          return :boolean if right_type == :boolean
+        end
+      end
+      raise Lola::TypeError, "type mismatch on (#{left_type.inspect} #{@operand.to_s} #{right_type.inspect}) for #{self.inspect}"
+    end
+
     private
     def check_evaluate(query, values)
       if query.respond_to? :evaluate

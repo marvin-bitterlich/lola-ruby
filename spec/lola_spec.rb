@@ -114,7 +114,13 @@ RSpec.describe Lola do
     describe 'smoke tests' do
       it 'does basic things' do
         Lola.spec do
-          define :something do
+          define :s, :numeric do
+            1
+          end
+          define :d, :numeric do
+            5
+          end
+          define :something, :numeric do
             (:s + :d)
           end
         end
@@ -122,19 +128,19 @@ RSpec.describe Lola do
       it 'does not allow double assign' do
         expect {
           Lola.spec do
-            define :something do
-              (:s + :d)
+            define :something, :numeric do
+              1
             end
-            define :something do
-              (:s + :e)
+            define :something, :numeric do
+              2
             end
           end
         }.to raise_error Lola::MappingError
       end
       it 'does a trigger' do
         Lola.spec do
-          define :something do
-            (:s + :d) > 5
+          define :something, :boolean do
+            3 > 5
           end
           trigger :something
         end
@@ -148,11 +154,11 @@ RSpec.describe Lola do
       end
       it 'does a look back' do
         Lola.spec do
-          define :s do
+          define :s, :numeric do
             1
           end
-          define :something do
-            (:s + :d) > look_back(:s, 1, 1)
+          define :something, :boolean do
+            (:s + 1) > look_back(:s, 1, 1)
           end
         end
       end
@@ -161,7 +167,13 @@ RSpec.describe Lola do
     describe 'store tests' do
       it 'does basic things' do
         spec = Lola.spec do
-          define :something do
+          define :s, :numeric do
+            1
+          end
+          define :d, :numeric do
+            5
+          end
+          define :something, :numeric do
             (:s + :d)
           end
         end
@@ -169,7 +181,13 @@ RSpec.describe Lola do
       end
       it 'does a trigger' do
         spec = Lola.spec do
-          define :something do
+          define :s, :numeric do
+            1
+          end
+          define :d, :numeric do
+            5
+          end
+          define :something, :boolean do
             (:s + :d) > 5
           end
           trigger :something
@@ -178,7 +196,13 @@ RSpec.describe Lola do
       end
       it 'does not set triggers all the time' do
         spec = Lola.spec do
-          define :something do
+          define :s, :numeric do
+            1
+          end
+          define :d, :numeric do
+            5
+          end
+          define :something, :boolean do
             (:s + :d) > 5
           end
         end
@@ -186,10 +210,13 @@ RSpec.describe Lola do
       end
       it 'does a look back' do
         spec = Lola.spec do
-          define :s do
+          define :s, :numeric do
             1
           end
-          define :something do
+          define :d, :numeric do
+            5
+          end
+          define :something, :boolean do
             (:s + :d) > look_back(:s, 1, 1)
           end
         end
@@ -200,10 +227,10 @@ RSpec.describe Lola do
     describe 'evaluation tests' do
       it 'does basic constants' do
         spec = Lola.spec do
-          define :something do
+          define :something, :numeric do
             1
           end
-          define :x do
+          define :x, :numeric do
             look_back(:something, 1, -51)
           end
         end
@@ -213,7 +240,7 @@ RSpec.describe Lola do
       it 'does basic triggers' do
         expect {
           spec = Lola.spec do
-            define :something do
+            define :something, :numeric do
               1
             end
             trigger :something
@@ -224,13 +251,13 @@ RSpec.describe Lola do
       it 'does complex triggers' do
         expect {
           spec = Lola.spec do
-            define :one do
+            define :one, :numeric do
               1
             end
-            define :count do
+            define :count, :numeric do
               look_back(:count, 1, 0) + :one
             end
-            define :limit_reached do
+            define :limit_reached, :boolean do
               :count > 3
             end
             trigger :limit_reached
@@ -238,6 +265,7 @@ RSpec.describe Lola do
           spec.evaluate # count => 1
           spec.evaluate # count => 2
           spec.evaluate # count => 3
+          puts spec.inspect
           spec.evaluate # count => 4 ⇒ error
         }.to raise_error Lola::TriggerError
       end

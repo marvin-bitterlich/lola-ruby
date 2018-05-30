@@ -2,15 +2,17 @@ module Lola
   class DataStore
     def initialize
       @mappings = {}
+      @types = {}
       @triggers = {}
       @reserved = nil
     end
 
-    def reserve(symbol, &block)
+    def reserve(symbol, type, &block)
       if @mappings.key? symbol
         raise MappingError, "In mapping #{@mappings.inspect} key #{symbol} was overridden from #{@mappings[symbol].inspect}"
       end
       @mappings[symbol] = Lola::Stream.new
+      @types[symbol] = type
       yield block
     end
 
@@ -19,11 +21,12 @@ module Lola
       unless @mappings.key? symbol
         raise MappingError, "Cannot define #{query.inspect} on missing key #{symbol} in mapping #{@mappings.inspect}"
       end
+      query.compute_types @types
       @mappings[symbol].attach_query query
     end
 
     # @param [Symbol] symbol
-    def trigger(symbol, reason='')
+    def trigger(symbol, reason = '')
       unless @mappings.key? symbol
         raise MappingError, "Cannot add trigger on missing key #{symbol} in mapping #{@mappings.inspect}"
       end
@@ -52,9 +55,9 @@ module Lola
     end
 
     def inspect
-      mappings = @mappings.map {|k,m| "#{k}: #{m.query}"}.join(",\n\t")
-      streams = @mappings.map {|k,m| "#{k}: #{m.stream}"}.join(",\n\t")
-      triggers = @triggers.map {|k,m| "#{k}: '#{m}'"}.join("\n\t")
+      mappings = @mappings.map { |k, m| "#{k}: #{m.query} :#{@types[k]}" }.join(",\n\t")
+      streams = @mappings.map { |k, m| "#{k}: #{m.stream}" }.join(",\n\t")
+      triggers = @triggers.map { |k, m| "#{k}: '#{m}'" }.join("\n\t")
       "mappings: {\n\t#{mappings}\n}, streams: {\n\t#{streams}\n}, triggers: {\n\t#{triggers}\n}"
     end
 
