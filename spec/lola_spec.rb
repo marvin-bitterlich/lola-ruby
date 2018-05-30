@@ -260,7 +260,7 @@ RSpec.describe Lola do
             define :limit_reached, :boolean do
               :count > 3
             end
-            trigger :limit_reached
+            trigger :limit_reached, 'Limit reached!'
           end
           spec.evaluate # count => 1
           spec.evaluate # count => 2

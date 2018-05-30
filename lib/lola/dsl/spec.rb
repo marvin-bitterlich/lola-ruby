@@ -11,8 +11,8 @@ module Lola
       end
     end
 
-    def trigger(symbol)
-      @store.trigger symbol
+    def trigger(symbol, reason = '')
+      @store.trigger symbol, reason
     end
 
     def look_back(symbol, steps, default)
