@@ -11,6 +11,7 @@ module Lola
   require 'lola/query/look_back'
   require 'lola/store/stream'
   require 'lola/store/data_store'
+  require 'lola/store/class_callback'
   require 'lola/dsl/spec'
 
   class Data

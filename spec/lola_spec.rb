@@ -306,4 +306,12 @@ RSpec.describe Lola do
     end
 =end
   end
+
+  describe 'Rails' do
+    describe 'smoke tests' do
+      it 'does basic things' do
+        Lola::ClassCallback.around_create((:s + :d) > 5)
+      end
+    end
+  end
 end
