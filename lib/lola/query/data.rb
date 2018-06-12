@@ -35,23 +35,7 @@ module Lola
     end
 
     def compute_types(types)
-      @type = compute_type_of @value, types
-    end
-
-    private
-    def compute_type_of(value, types)
-      return :numeric if value.is_a? Numeric
-      return :string if value.is_a? String
-      return :boolean if value.is_a?(TrueClass) || value.is_a?(FalseClass)
-      return value.compute_types(types) if value.respond_to? :compute_types
-      return value.type if value.respond_to? :type
-      if value.is_a? Symbol
-        unless types.key? value
-          raise Lola::TypeError, "Reference #{value.inspect} has no type in mapping #{types.inspect}"
-        end
-        return types[value]
-      end
-      raise Lola::TypeError, "Don't know what type a #{value.class} '#{value.inspect}' is…"
+      @type = Lola::Type.compute_type_of @value, types
     end
   end
 end

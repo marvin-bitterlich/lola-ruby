@@ -265,7 +265,7 @@ RSpec.describe Lola do
           spec.evaluate # count => 1
           spec.evaluate # count => 2
           spec.evaluate # count => 3
-          puts spec.inspect
+          spec.inspect
           spec.evaluate # count => 4 ⇒ error
         }.to raise_error Lola::TriggerError
       end
@@ -308,9 +308,37 @@ RSpec.describe Lola do
   end
 
   describe 'Rails' do
+    class Record
+
+      def columns_hash
+        {
+          name: {type: :string},
+          id: {type: :numeric},
+          male: {type: :boolean},
+        }
+      end
+
+      def name
+        'John'
+      end
+
+      def id
+        5832
+      end
+
+      def male
+        true
+      end
+
+      def change_state(new_state)
+        Lola::ClassCallback.around_create(self) do
+          puts :something
+        end
+      end
+    end
     describe 'smoke tests' do
       it 'does basic things' do
-        Lola::ClassCallback.around_create((:s + :d) > 5)
+        Lola::ClassCallback.around_create(Record.new)
       end
     end
   end
