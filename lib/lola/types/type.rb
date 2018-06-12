@@ -29,9 +29,11 @@ module Lola
 
     def self.convert_to_type(value, type)
       if type == :numeric
+        return value if value.is_a? Numeric
         return value.to_d if value.respond_to?(:to_d)
+        return value.to_f if value.respond_to?(:to_f)
         return value.to_i if value.respond_to?(:to_i)
-        return BigDecimal(value)
+        return BigDecimal.new(value)
       end
       return value.to_s if type == :string
       return !!value if type == :boolean

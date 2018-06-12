@@ -10,17 +10,25 @@ module Lola
   require 'lola/query/joinable'
   require 'lola/query/query'
   require 'lola/query/look_back'
+  require 'lola/query/source'
   require 'lola/store/stream'
   require 'lola/store/data_store'
   require 'lola/store/class_callback'
   require 'lola/dsl/spec'
+  require 'lola/dsl/model'
 
   class Data
     prepend Lola::Joinable
   end
 
-  def self.spec(&block)
-    thing = Docile.dsl_eval(Lola::Spec.new, &block)
+  def self.spec(sources = {}, &block)
+    spec = Lola::Spec.new
+    sources.each do |name, type|
+      spec.define(name, type) do
+        Lola::Source.new(name, type)
+      end
+    end
+    thing = Docile.dsl_eval(spec, &block)
     # puts thing.inspect
     thing
   end
@@ -28,6 +36,7 @@ end
 
 class Symbol
   prepend Lola::Joinable
+
   def query_inspect
     to_s
   end
@@ -35,6 +44,7 @@ end
 
 class Integer
   prepend Lola::Joinable
+
   def query_inspect
     to_s
   end

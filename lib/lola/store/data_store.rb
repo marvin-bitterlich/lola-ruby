@@ -74,7 +74,11 @@ module Lola
       @triggers.each do |trigger, reason|
         trigger_value = values[trigger]
         if trigger_value
-          raise Lola::TriggerError.new(reason)
+          values.delete(:__retrieve_look_back__)
+          valuesoutput = values.map { |k, m| "#{k}: '#{m}'" }.join("\n\t")
+          raise Lola::TriggerError.new(
+            "Spec raised a violation with reason #{reason} in data state: \n#{self.inspect}, values: {\n\t#{valuesoutput}\n}"
+          )
         end
       end
       @mappings.each do |key, mapping|

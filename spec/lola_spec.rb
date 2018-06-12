@@ -309,8 +309,7 @@ RSpec.describe Lola do
 
   describe 'Rails' do
     class Record
-
-      def columns_hash
+      def self.columns_hash
         {
           name: {type: :string},
           id: {type: :numeric},
@@ -318,12 +317,25 @@ RSpec.describe Lola do
         }
       end
 
+      def self.around_create(callback_class)
+        @@callback_class = callback_class
+      end
+
+      extend Lola::Model
+
+      define_specification do
+        define :one, :boolean do
+          :id < 0
+        end
+        trigger :one, 'haha!'
+      end
+
       def name
         'John'
       end
 
       def id
-        5832
+        5832.6
       end
 
       def male
@@ -331,14 +343,14 @@ RSpec.describe Lola do
       end
 
       def change_state(new_state)
-        Lola::ClassCallback.around_create(self) do
+        @@callback_class.around_create(self) do
           puts :something
         end
       end
     end
     describe 'smoke tests' do
       it 'does basic things' do
-        Lola::ClassCallback.around_create(Record.new)
+        Record.new.change_state({})
       end
     end
   end
