@@ -9,7 +9,8 @@ module Lola
       puts class_key
 
       types = model.respond_to?(:columns_hash) ? model.columns_hash : {}
-      types = Hash[types.map { |name, type| [name, Lola::Type.convert_type_of(type[:type])] }]
+      puts types
+      types = Hash[types.map { |name, type| [name, Lola::Type.convert_type_of(type.sql_type_metadata.type.to_sym)] }]
       unless $mappings.include? class_key
         $mappings[class_key] = {
           streams: {},

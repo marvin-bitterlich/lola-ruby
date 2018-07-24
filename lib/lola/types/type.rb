@@ -20,11 +20,13 @@ module Lola
       numeric: :numeric,
       string: :string,
       boolean: :boolean,
+      decimal: :numeric,
+      datetime: :datetime,
     }
 
     def self.convert_type_of(type)
       return AR_MAPPING[type] if AR_MAPPING.include? type
-      raise Lola::TypeError, "AR type #{type} has no type in mapping #{AR_MAPPING}"
+      raise Lola::TypeError, "AR type #{type.to_json} has no type in mapping #{AR_MAPPING}"
     end
 
     def self.convert_to_type(value, type)

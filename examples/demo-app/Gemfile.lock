@@ -1,7 +1,5 @@
-GIT
-  remote: https://github.com/Kostronor/lola-ruby.git
-  revision: 0550b526ab9cf9a9769d4016d99b3b1b6e8e2c13
-  ref: 0550b526ab9cf9a9769d4016d99b3b1b6e8e2c13
+PATH
+  remote: ../..
   specs:
     lola (0.1.0)
       docile (~> 1.1.5)

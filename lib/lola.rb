@@ -1,4 +1,5 @@
 require 'lola/version'
+require 'docile'
 
 module Lola
   require 'lola/errors/evaluation_error'
