@@ -325,9 +325,8 @@ RSpec.describe Lola do
 
       define_specification do
         define :one, :boolean do
-          :id < 0
+          :id + look_back(:id, 1, 0)
         end
-        trigger :one, 'haha!'
       end
 
       def name
@@ -350,7 +349,9 @@ RSpec.describe Lola do
     end
     describe 'smoke tests' do
       it 'does basic things' do
-        Record.new.change_state({})
+        record = Record.new
+        record.change_state({})
+        record.change_state({})
       end
     end
   end
