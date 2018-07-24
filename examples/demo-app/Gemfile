@@ -33,7 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'lola', :git => 'git://github.com/Kostronor/lola-ruby.git'
+gem 'lola', :github => 'Kostronor/lola-ruby', :ref => '0550b526ab9cf9a9769d4016d99b3b1b6e8e2c13'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

@@ -6,6 +6,7 @@ module Lola
     def self.retrieve_types(model)
       class_key = model.to_s.to_sym
       # compute types of that model
+      puts class_key
 
       types = model.respond_to?(:columns_hash) ? model.columns_hash : {}
       types = Hash[types.map { |name, type| [name, Lola::Type.convert_type_of(type[:type])] }]
