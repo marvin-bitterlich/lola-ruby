@@ -36,7 +36,7 @@ module Lola
     # @param [Symbol] symbol
     def look_back(symbol, steps, default)
       unless @mappings.key?(symbol)
-        raise MappingError, "Cannot look back on missing key #{symbol} in mapping #{@mappings.inspect}"
+        raise MappingError, "Cannot look back on missing key #{symbol.inspect} in mapping #{@mappings.inspect}"
       end
       retrieve(symbol).keep_at_least(steps)
       Lola::Data.new(Lola::LookBack.new(symbol, steps, default))

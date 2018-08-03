@@ -310,11 +310,11 @@ RSpec.describe Lola do
   describe 'Rails' do
     class Record
       def self.columns_hash
-        {
-          name: {type: :string},
-          id: {type: :numeric},
-          male: {type: :boolean},
-        }
+        Hashie::Mash.new({
+          name: {sql_type_metadata: {type: :string}},
+          id: {sql_type_metadata: {type: :numeric}},
+          male: {sql_type_metadata: {type: :boolean}},
+        })
       end
 
       def self.around_create(callback_class)
@@ -343,7 +343,7 @@ RSpec.describe Lola do
 
       def change_state(new_state)
         @@callback_class.around_create(self) do
-          puts :something
+          # puts :something
         end
       end
     end
