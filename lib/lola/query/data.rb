@@ -7,6 +7,8 @@ module Lola
 
     def evaluate(values)
       return @value if @value.kind_of? Numeric
+      return @value if @value.kind_of? TrueClass
+      return @value if @value.kind_of? FalseClass
       if @value.kind_of? Symbol
         return values[@value]
       end

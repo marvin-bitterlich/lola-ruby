@@ -38,5 +38,9 @@ module Lola
     def evaluate(values = {})
       @store.evaluate(values)
     end
+
+    def no(value)
+      Lola::Not.new(Lola::Data.new value)
+    end
   end
 end

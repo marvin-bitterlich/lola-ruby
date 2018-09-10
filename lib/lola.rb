@@ -10,6 +10,7 @@ module Lola
   require 'lola/query/data'
   require 'lola/query/joinable'
   require 'lola/query/query'
+  require 'lola/query/not'
   require 'lola/query/look_back'
   require 'lola/query/source'
   require 'lola/store/stream'
@@ -48,6 +49,26 @@ class Integer
 
   def query_inspect
     to_s
+  end
+end
+
+class TrueClass
+  def and(other)
+    other
+  end
+
+  def or(other)
+    true
+  end
+end
+
+class FalseClass
+  def and(other)
+    false
+  end
+
+  def or(other)
+    other
   end
 end
 

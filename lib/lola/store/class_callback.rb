@@ -9,7 +9,6 @@ module Lola
       # puts class_key.inspect
 
       types = model.respond_to?(:columns_hash) ? model.columns_hash : {}
-      # puts types
       types = Hash[types.map do |name, type|
         new_type = Lola::Type.convert_type_of(type.sql_type_metadata.type.to_sym)
         # puts name, new_type
@@ -21,6 +20,7 @@ module Lola
           types: types,
         }
       end
+
       types
     end
 
@@ -42,13 +42,13 @@ module Lola
         }
       end
 
-      # puts $mappings.to_json
+      # puts $mappings.inspect
 
       # puts spec.inspect
 
       result = spec.evaluate values
 
-      # puts result
+      # puts result.inspect
 
       # puts spec.inspect
 

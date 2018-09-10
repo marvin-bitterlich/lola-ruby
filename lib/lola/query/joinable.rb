@@ -1,14 +1,14 @@
 module Lola
   module Joinable
     def method_missing(method, *args)
-      if BINARY_OPERATORS.include? method
-        return binary_match(method, args.first)
+      if BINARY_OPERATORS.key? method
+        return binary_match(BINARY_OPERATORS[method], args.first)
       end
       return super
     end
 
     def self.override_class_comparisons(overridden_class)
-      BINARY_OPERATORS.each do |operator|
+      BINARY_OPERATORS.each do |operator, method|
         overridden_class.send(:define_method, operator) do |other|
           self.method_missing(operator, other)
         end
@@ -17,7 +17,14 @@ module Lola
 
     private
 
-    BINARY_OPERATORS = Set[:+, :-, :<, :>, :⇒]
+    BINARY_OPERATORS = {
+        '+': :+, plus: :+, add: :+,
+        '-': :-, minus: :-, sub: :-, substract: :-,
+        and: :and, or: :or,
+        '<': :<,
+        '>': :>,
+        ⇒: :⇒,
+    }
 
     def binary_match(operator, other)
       return self.class.superclass.send(operator, other) unless matches_prepend other

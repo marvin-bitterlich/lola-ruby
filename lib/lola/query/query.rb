@@ -45,7 +45,7 @@ module Lola
         end
       end
       if left_type == :boolean
-        if [:==, :!=].include? @operand
+        if [:==, :!=, :and, :or].include? @operand
           return :boolean if right_type == :boolean
         end
       end

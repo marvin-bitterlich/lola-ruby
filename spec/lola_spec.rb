@@ -40,31 +40,31 @@ RSpec.describe Lola do
     describe 'query string tests' do
       it 'can print (s + d)' do
         expect(
-          (:s + :d).inspect
+            (:s + :d).inspect
         ).to eq '(s + d)'
       end
 
       it 'can print (s - d)' do
         expect(
-          (:s - :d).inspect
+            (:s - :d).inspect
         ).to eq '(s - d)'
       end
 
       it 'can print (s ⇒ d)' do
         expect(
-          (:s.⇒ :d).inspect
+            (:s.⇒ :d).inspect
         ).to eq '(s ⇒ d)'
       end
 
       it 'can print (((s + d) + x) + something)' do
         expect(
-          (:s + :d + :x + :something).inspect
+            (:s + :d + :x + :something).inspect
         ).to eq '(((s + d) + x) + something)'
       end
 
       it 'can print ((s + d) + (x + something))' do
         expect(
-          ((:s + :d) + (:x + :something)).inspect
+            ((:s + :d) + (:x + :something)).inspect
         ).to eq '((s + d) + (x + something))'
       end
     end
@@ -104,7 +104,7 @@ RSpec.describe Lola do
     describe 'result tests' do
       it 'calculates 1 + 2 = 3' do
         expect(
-          (:s + :d).evaluate(s: 1, d: 2)
+            (:s + :d).evaluate(s: 1, d: 2)
         ).to be 3
       end
     end
@@ -309,49 +309,54 @@ RSpec.describe Lola do
 
   describe 'Rails' do
     class Record
-      def self.columns_hash
-        Hashie::Mash.new({
-          name: {sql_type_metadata: {type: :string}},
-          id: {sql_type_metadata: {type: :numeric}},
-          male: {sql_type_metadata: {type: :boolean}},
-        })
-      end
-
-      def self.around_create(callback_class)
-        @@callback_class = callback_class
-      end
-
+      extend ActiveRecordShim
+      include ActiveRecordShim
+      attributes name: :string, id: :numeric, male: :boolean
       extend Lola::Model
 
       define_specification do
-        define :one, :boolean do
-          :id + look_back(:id, 1, 0)
-        end
-      end
-
-      def name
-        'John'
-      end
-
-      def id
-        5832.6
-      end
-
-      def male
-        true
-      end
-
-      def change_state(new_state)
-        @@callback_class.around_create(self) do
-          # puts :something
+        define :one, :numeric do
+          :id.plus look_back(:id, 1, 0)
         end
       end
     end
+
+    class User
+      extend ActiveRecordShim
+      include ActiveRecordShim
+      attributes tos_accepted: :boolean, account_enabled: :boolean
+      extend Lola::Model
+
+      define_specification do
+        define :legally_not_enabled, :boolean do
+          :account_enabled.and(no(:tos_accepted))
+        end
+        trigger :legally_not_enabled,
+                "TOS acceptance missing"
+      end
+    end
+
     describe 'smoke tests' do
       it 'does basic things' do
-        record = Record.new
-        record.change_state({})
-        record.change_state({})
+        record = Record.new name: 'John', id: 1234, male: true
+        record.change_state
+        record.change_state
+      end
+
+      it 'does not trigger valid use' do
+        user = User.new tos_accepted: false, account_enabled: false
+        user.change_state
+        user.tos_accepted = true
+        user.change_state
+        user.account_enabled = true
+        user.change_state
+      end
+
+      it 'does trigger invalid use' do
+        expect {
+          user = User.new tos_accepted: false, account_enabled: true
+          user.change_state
+        }.to raise_error Lola::TriggerError
       end
     end
   end
