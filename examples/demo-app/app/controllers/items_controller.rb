@@ -5,6 +5,7 @@ class ItemsController < ApplicationController
   # GET /items.json
   def index
     @items = Item.all
+    puts Item.__spec__.inspect
   end
 
   # GET /items/1

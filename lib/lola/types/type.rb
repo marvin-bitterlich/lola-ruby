@@ -39,6 +39,7 @@ module Lola
       end
       return value.to_s if type == :string
       return !!value if type == :boolean
+      return value if type == :datetime
       raise Lola::TypeError, "Cannot convert unknown type #{type} for value #{value.inspect}"
     end
   end

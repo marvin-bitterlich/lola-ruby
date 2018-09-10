@@ -16,8 +16,8 @@ module Lola
       end]
       unless $mappings.include? class_key
         $mappings[class_key] = {
-          streams: {},
-          types: types,
+            streams: {},
+            types: types,
         }
       end
 
@@ -31,14 +31,14 @@ module Lola
 
       types = $mappings[class_key][:types]
       # get values corresponding to the types
-      values = Hash[types.map { |name, type| [name, Lola::Type.convert_to_type(instance.send(name), type)] }]
+      values = Hash[types.map {|name, type| [name, Lola::Type.convert_to_type(instance.send(name), type)]}]
 
       # puts values.to_json
 
       unless $mappings[class_key][:streams].include? instance_id
         $mappings[class_key][:streams][instance_id] = {
-          instance: instance,
-          id: instance_id
+            instance: instance,
+            id: instance_id
         }
       end
 
@@ -54,10 +54,24 @@ module Lola
 
       db_result = yield block
 
-      # puts db_result
+        # puts db_result
 
-      # puts "done"
+        # puts "done"
+    rescue Lola::TriggerError => e
+      begin
+        # When using Rails ensure that errors are reported better :tm:
+        errors = Rails.env.development? ? e.messages : e.explanations
+        errors.each do |error|
+          instance.errors.add(:base, error)
+        end
+        raise ActiveRecord::RecordInvalid, instance
+      rescue NameError
+        raise e
+      end
+    end
 
+    def self.around_update(instance, &block)
+      self.around_create(instance, &block)
     end
   end
 end

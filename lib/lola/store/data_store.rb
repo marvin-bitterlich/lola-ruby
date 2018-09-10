@@ -55,9 +55,9 @@ module Lola
     end
 
     def inspect
-      mappings = @mappings.map { |k, m| "#{k}: #{m.query} :#{@types[k]}" }.join(",\n\t")
-      streams = @mappings.map { |k, m| "#{k}: #{m.stream}" }.join(",\n\t")
-      triggers = @triggers.map { |k, m| "#{k}: '#{m}'" }.join("\n\t")
+      mappings = @mappings.map {|k, m| "#{k}: #{m.query} :#{@types[k]}"}.join(",\n\t")
+      streams = @mappings.map {|k, m| "#{k}: #{m.stream}"}.join(",\n\t")
+      triggers = @triggers.map {|k, m| "#{k}: '#{m}'"}.join("\n\t")
       "mappings: {\n\t#{mappings}\n}, streams: {\n\t#{streams}\n}, triggers: {\n\t#{triggers}\n}"
     end
 
@@ -71,15 +71,18 @@ module Lola
         result = mapping.evaluate(values)
         values[key] = result
       end
-      @triggers.each do |trigger, reason|
+      puts "checking for triggers..."
+      triggers = @triggers.map do |trigger, reason|
         trigger_value = values[trigger]
         if trigger_value
           values.delete(:__retrieve_look_back__)
-          valuesoutput = values.map { |k, m| "#{k}: '#{m}'" }.join("\n\t")
-          raise Lola::TriggerError.new(
-            "Spec raised a violation with reason #{reason} in data state: \n#{self.inspect}, values: {\n\t#{valuesoutput}\n}"
-          )
+          valuesoutput = values.map {|k, m| "#{k}: '#{m}'"}.join("\n\t")
+          [reason, "Spec raised a violation with reason #{reason} in data state: \n#{self.inspect}, values: {\n\t#{valuesoutput}\n}"]
         end
+      end.compact
+      puts "triggers: #{triggers.to_json}"
+      if triggers.any?
+        raise Lola::TriggerError.new(msg = "Spec got violations: #{triggers.to_json}", triggers.map(&:first), triggers.map(&:last))
       end
       @mappings.each do |key, mapping|
         mapping.push(values[key])

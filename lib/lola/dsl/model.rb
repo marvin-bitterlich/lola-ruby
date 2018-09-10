@@ -3,6 +3,7 @@ module Lola
     def define_specification(*args, &block)
       types = Lola::ClassCallback.retrieve_types(self)
       around_create Lola::ClassCallback
+      around_update Lola::ClassCallback
       @spec = Lola.spec(types, *args, &block)
     end
 
