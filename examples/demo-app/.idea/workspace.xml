@@ -1,0 +1,1733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de0c9905-40dd-4bfa-84dc-bdc0e0403f8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/.idea/.generators" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/.idea/.rakeTasks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/.idea/bidding-platform.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/.ruby-version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/Rakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/app/assets/config/manifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/app/assets/images/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/app/assets/stylesheets/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/app/channels/application_cable/channel.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/app/channels/application_cable/connection.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/app/controllers/application_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/app/controllers/concerns/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/app/helpers/application_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/app/jobs/application_job.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/app/mailers/application_mailer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/app/models/application_record.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/app/models/concerns/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/app/views/layouts/application.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/app/views/layouts/mailer.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/app/views/layouts/mailer.text.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/bin/bundle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/bin/rails" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/bin/rake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/bin/setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/bin/update" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/bin/yarn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config.ru" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/application.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/boot.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/cable.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/credentials.yml.enc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/database.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/environment.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/environments/development.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/environments/production.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/environments/test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/initializers/application_controller_renderer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/initializers/assets.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/initializers/backtrace_silencers.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/initializers/content_security_policy.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/initializers/cookies_serializer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/initializers/filter_parameter_logging.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/initializers/inflections.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/initializers/mime_types.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/initializers/wrap_parameters.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/locales/en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/puma.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/routes.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/config/storage.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/db/seeds.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/lib/assets/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/lib/tasks/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/log/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/public/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/public/422.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/public/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/public/apple-touch-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/storage/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/test/application_system_test_case.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/test/controllers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/test/fixtures/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/test/fixtures/files/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/test/helpers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/test/integration/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/test/mailers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/test/models/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/test/system/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/test/test_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/tmp/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bidding-platform/vendor/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c3d692e1-a961-4046-98e0-8b688736c0d1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c3d692e1-a961-4046-98e0-8b688736c0d1/storage_v2/_src_/database/production.ufB8aA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c3d692e1-a961-4046-98e0-8b688736c0d1/storage_v2/_src_/database/production.ufB8aA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/demo-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/auctions.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/auctions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/auctions_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/auctions_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/auction.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/auctions/_auction.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/auctions/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/auctions/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/auctions/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/auctions/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/auctions/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/auctions/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/auctions/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20180912184458_create_auctions.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/auctions_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/auctions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/auction_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/auction_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/system/auctions_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.rspec" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/.rspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/setup" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/bin/setup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/item.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/item.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exe/lola" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/exe/lola" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/dsl/model.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/dsl/model.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/dsl/spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/dsl/spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/errors/evaluation_error.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/errors/evaluation_error.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/errors/mapping_error.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/errors/mapping_error.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/errors/trigger_error.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/errors/trigger_error.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/errors/type_error.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/errors/type_error.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/query/data.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/query/data.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/query/joinable.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/query/joinable.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/query/look_back.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/query/look_back.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/query/not.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/query/not.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/query/query.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/query/query.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/query/source.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/query/source.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/store/class_callback.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/store/class_callback.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/store/data_store.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/store/data_store.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/store/stream.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/store/stream.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/types/type.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/types/type.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/lola/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lib/lola/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lola.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/lola.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spec/active_record_shim.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/spec/active_record_shim.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spec/lola_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/spec/lola_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lola-ruby/spec/spec_helper.rb" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.bundle/" />
+    <ignored path="$PROJECT_DIR$/components/" />
+    <ignored path="$PROJECT_DIR$/public/system/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$PROJECT_DIR$/vendor/bundle/" />
+    <ignored path="$PROJECT_DIR$/vendor/cache/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/demo_app@Production__demo_app.rcov" NAME="Production: demo-app Coverage Results" MODIFIED="1536788860064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="demo-app" />
+    <SUITE FILE_PATH="coverage/demo_app@db_migrate__demo_app.rcov" NAME="db:migrate: demo-app Coverage Results" MODIFIED="1536785527906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="demo-app" />
+    <SUITE FILE_PATH="coverage/demo_app@Development__demo_app.rcov" NAME="Development: demo-app Coverage Results" MODIFIED="1536789362083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="demo-app" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2088438225">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="GemDependency/#demo-app" value="1" />
+          <entry key="Gemfile" value="3" />
+          <entry key="config" value="1" />
+          <entry key="lock" value="4" />
+          <entry key="rakeTasks" value="1" />
+          <entry key="rb" value="10" />
+          <entry key="ru" value="2" />
+          <entry key="txt" value="1" />
+          <entry key="yml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Ruby" value="15" />
+          <entry key="UML" value="1" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Gemfile" value="27" />
+          <entry key="rb" value="345" />
+          <entry key="txt" value="54" />
+          <entry key="yml" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="54" />
+          <entry key="Ruby" value="372" />
+          <entry key="YAML" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.actions.runAnything" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/item.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="59" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/auction.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.bundle/config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1428">
+              <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2516">
+              <caret line="148" column="7" selection-start-line="148" selection-start-column="7" selection-end-line="148" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GeneratorOptions">
+    <option name="VCS_SHOW_CONFIRMATION" value="true" />
+    <option name="ENVIRONMENT" value="development" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/models/item.rb" />
+        <option value="$PROJECT_DIR$/app/models/auction.rb" />
+        <option value="$PROJECT_DIR$/test/integration/auction_test.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/.bundle/config" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1270" />
+    <option name="width" value="1300" />
+    <option name="height" value="705" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-app" type="462c0819:PsiDirectoryNode" />
+              <item name=".bundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-app" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-app" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-app" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-app" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="RailsProjectView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
+    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bidding-platform" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Rails.Development: demo-app">
+    <configuration name="Development: demo-app" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="demo-app" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Production: demo-app" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="demo-app" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="db:migrate: demo-app" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="demo-app" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: demo-app" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="demo-app" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: demo-app" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="demo-app" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Rake.test: demo-app" />
+      <item itemvalue="Rake.spec: demo-app" />
+      <item itemvalue="Rails.Production: demo-app" />
+      <item itemvalue="Rails.Development: demo-app" />
+      <item itemvalue="Rake.db:migrate: demo-app" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Rake.db:migrate: demo-app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de0c9905-40dd-4bfa-84dc-bdc0e0403f8c" name="Default Changelist" comment="" />
+      <created>1536777977612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536777977612</updated>
+      <workItem from="1536777979597" duration="6781000" />
+      <workItem from="1536788878727" duration="1107000" />
+      <workItem from="1536790083341" duration="43000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7931000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25474524" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32908913" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5004995" side_tool="true" weight="0.32908913" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32908913" />
+      <window_info anchor="bottom" id="Messages" order="4" visible="true" weight="0.32908913" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.4995005" weight="0.32908913" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/system/auctions_test.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/auction_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/2.5.0/tsort.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/application.rb" />
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rack-2.0.5/lib/rack/builder.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/initializable.rb" />
+    <entry file="uml://GemDependency/#demo-app">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>GemDependency</ID>
+          <OriginalElement>#demo-app</OriginalElement>
+          <nodes>
+            <node x="3004.3297191021566" y="714.0">turbolinks-source</node>
+            <node x="2149.9520309301133" y="535.0">method_source</node>
+            <node x="2029.4520309301136" y="436.0">websocket-extensions</node>
+            <node x="1593.4579261882332" y="893.0">web-console</node>
+            <node x="1877.717603607588" y="535.0">nio4r</node>
+            <node x="1739.4520309301136" y="714.0">bindex</node>
+            <node x="1556.203830253232" y="79.0">i18n</node>
+            <node x="898.5636420811886" y="436.0">globalid</node>
+            <node x="2651.9284457478007" y="535.0">sass-listen</node>
+            <node x="2831.6784457478007" y="297.0">ffi</node>
+            <node x="143.81364208118862" y="535.0">coffee-script-source</node>
+            <node x="1936.0801743392535" y="0.0">concurrent-ruby</node>
+            <node x="2518.6784457478007" y="714.0">sass</node>
+            <node x="116.06364208118862" y="297.0">builder</node>
+            <node x="1155.2398787786533" y="714.0">actionmailer</node>
+            <node x="3102.5797191021566" y="893.0">pg</node>
+            <node x="62.6627215090607" y="0.0">mini_portile2</node>
+            <node x="1517.8520309301136" y="535.0">activemodel</node>
+            <node x="2997.5797191021566" y="893.0">turbolinks</node>
+            <node x="441.5636420811886" y="714.0">hashie</node>
+            <node x="1941.4520309301136" y="714.0">sprockets-rails</node>
+            <node x="730.5636420811886" y="714.0">bundler</node>
+            <node x="1115.5961471070991" y="297.0">rails-html-sanitizer</node>
+            <node x="2559.9284457478007" y="436.0">rb-fsevent</node>
+            <node x="2311.6617083494684" y="436.0">rack-test</node>
+            <node x="1450.3804400210227" y="714.0">activerecord</node>
+            <node x="2591.6784457478007" y="893.0">jbuilder</node>
+            <node x="2905.34780058651" y="79.0">tzinfo</node>
+            <node x="1041.0636420811888" y="535.0">mail</node>
+            <node x="1344.1835914992855" y="535.0">arel</node>
+            <node x="2485.1784457478007" y="893.0">puma</node>
+            <node x="2005.9520309301136" y="535.0">websocket-driver</node>
+            <node x="2256.1617083494684" y="893.0">sass-rails</node>
+            <node x="1651.4520309301136" y="714.0">railties</node>
+            <node x="361.5636420811886" y="297.0">erubi</node>
+            <node x="1261.583333333333" y="436.0">actionview</node>
+            <node x="2622.3034457478007" y="297.0">rack</node>
+            <node x="1116.0636420811888" y="535.0">activejob</node>
+            <node x="89.06364208118862" y="168.0">loofah</node>
+            <node x="645.5636420811886" y="714.0">docile</node>
+            <node x="2801.9284457478007" y="436.0">rb-inotify</node>
+            <node x="526.5636420811886" y="714.0">coffee-script</node>
+            <node x="823.5636420811886" y="535.0">rake</node>
+            <node x="137.9127215090607" y="79.0">nokogiri</node>
+            <node x="687.5636420811886" y="893.0">lola</node>
+            <node x="1453.8804400210227" y="893.0">rails</node>
+            <node x="2423.552281026943" y="535.0">sprockets</node>
+            <node x="1668.0509369409215" y="535.0">actionpack</node>
+            <node x="2871.84780058651" y="0.0">thread_safe</node>
+            <node x="2620.1784457478007" y="714.0">multi_json</node>
+            <node x="2305.9117083494684" y="535.0">thor</node>
+            <node x="467.24605484239373" y="79.0">minitest</node>
+            <node x="928.0636420811887" y="893.0">coffee-rails</node>
+            <node x="2247.6617083494684" y="714.0">tilt</node>
+            <node x="2941.5797191021566" y="168.0">tzinfo-data</node>
+            <node x="10.5" y="79.0">crass</node>
+            <node x="301.8136420811886" y="535.0">execjs</node>
+            <node x="1505.703830253232" y="168.0">activesupport</node>
+            <node x="1669.6520309301136" y="1262.0">#demo-app</node>
+            <node x="221.56364208118862" y="714.0">uglifier</node>
+            <node x="1270.8658383592435" y="297.0">rails-dom-testing</node>
+            <node x="1827.4520309301136" y="714.0">actioncable</node>
+            <node x="1063.3095700307977" y="436.0">mini_mime</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="actioncable" target="websocket-driver">
+              <point x="31.0" y="-14.5" />
+              <point x="1904.9520309301136" y="654.0" />
+              <point x="2036.7020309301136" y="654.0" />
+              <point x="-30.75" y="14.5" />
+            </edge>
+            <edge source="actionmailer" target="rails-dom-testing">
+              <point x="0.0" y="-14.5" />
+              <point x="1204.2398787786533" y="614.0" />
+              <point x="1246.8136420811888" y="614.0" />
+              <point x="1246.8136420811888" y="416.0" />
+              <point x="1316.9908383592435" y="416.0" />
+              <point x="-15.375" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="mini_portile2">
+              <point x="-43.290322580645125" y="-14.5" />
+              <point x="1670.3617083494685" y="1242.0" />
+              <point x="0.0" y="1242.0" />
+              <point x="0.0" y="59.0" />
+              <point x="87.9127215090607" y="59.0" />
+              <point x="-25.25" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="activemodel">
+              <point x="-3.5483870967741495" y="-14.5" />
+              <point x="1710.1036438333394" y="962.0" />
+              <point x="1574.0204261882332" y="962.0" />
+              <point x="1574.0204261882332" y="624.0" />
+              <point x="1578.4770309301136" y="624.0" />
+              <point x="12.125" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="activerecord">
+              <point x="-4.9677419354839" y="-14.5" />
+              <point x="1708.6842889946297" y="972.0" />
+              <point x="1548.0266578597875" y="972.0" />
+              <point x="1548.0266578597875" y="793.0" />
+              <point x="1523.1304400210227" y="793.0" />
+              <point x="24.25" y="14.5" />
+            </edge>
+            <edge source="actionview" target="rails-dom-testing">
+              <point x="17.59999999999991" y="-14.5" />
+              <point x="1323.183333333333" y="406.0" />
+              <point x="1347.7408383592435" y="406.0" />
+              <point x="15.375" y="14.5" />
+            </edge>
+            <edge source="sass-rails" target="tilt">
+              <point x="0.0" y="-14.5" />
+              <point x="2295.6617083494684" y="823.0" />
+              <point x="2282.1617083494684" y="823.0" />
+              <point x="11.5" y="14.5" />
+            </edge>
+            <edge source="sass-listen" target="rb-fsevent">
+              <point x="-21.25" y="-14.5" />
+              <point x="2673.1784457478007" y="485.0" />
+              <point x="2623.6784457478007" y="485.0" />
+              <point x="21.25" y="14.5" />
+            </edge>
+            <edge source="tzinfo-data" target="tzinfo">
+              <point x="0.0" y="-14.5" />
+              <point x="2987.0797191021566" y="148.0" />
+              <point x="2957.014467253177" y="148.0" />
+              <point x="20.666666666666515" y="14.5" />
+            </edge>
+            <edge source="nokogiri" target="mini_portile2">
+              <point x="0.0" y="-14.5" />
+              <point x="175.9127215090607" y="59.0" />
+              <point x="138.4127215090607" y="59.0" />
+              <point x="25.25" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="actionpack">
+              <point x="0.7096774193548754" y="-14.5" />
+              <point x="1714.3617083494685" y="942.0" />
+              <point x="1728.9520309301136" y="942.0" />
+              <point x="1728.9520309301136" y="654.0" />
+              <point x="1719.967603607588" y="654.0" />
+              <point x="7.4166666666667425" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="sprockets-rails">
+              <point x="6.387096774193651" y="-14.5" />
+              <point x="1720.0391277043072" y="982.0" />
+              <point x="1995.4520309301136" y="982.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="rails" target="actionmailer">
+              <point x="-19.272727272727252" y="-14.5" />
+              <point x="1461.1077127482954" y="803.0" />
+              <point x="1228.7398787786533" y="803.0" />
+              <point x="24.5" y="14.5" />
+            </edge>
+            <edge source="actionview" target="activesupport">
+              <point x="35.200000000000045" y="-14.5" />
+              <point x="1340.7833333333333" y="416.0" />
+              <point x="1408.077415435545" y="416.0" />
+              <point x="1408.077415435545" y="257.0" />
+              <point x="1536.0371635865652" y="257.0" />
+              <point x="-21.666666666666742" y="14.5" />
+            </edge>
+            <edge source="rails-dom-testing" target="nokogiri">
+              <point x="-30.75" y="-14.5" />
+              <point x="1301.6158383592435" y="217.0" />
+              <point x="1297.3461471070991" y="217.0" />
+              <point x="1297.3461471070991" y="138.0" />
+              <point x="201.24605484239396" y="138.0" />
+              <point x="25.333333333333258" y="14.5" />
+            </edge>
+            <edge source="actionview" target="rails-html-sanitizer">
+              <point x="0.0" y="-14.5" />
+              <point x="1305.583333333333" y="366.0" />
+              <point x="1181.0961471070991" y="366.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="sprockets-rails" target="actionpack">
+              <point x="-36.0" y="-14.5" />
+              <point x="1959.4520309301136" y="634.0" />
+              <point x="1749.6342702742545" y="634.0" />
+              <point x="37.08333333333326" y="14.5" />
+            </edge>
+            <edge source="sass-rails" target="railties">
+              <point x="-31.59999999999991" y="-14.5" />
+              <point x="2264.061708349468" y="843.0" />
+              <point x="1711.7520309301135" y="843.0" />
+              <point x="26.799999999999955" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="uglifier">
+              <point x="-34.774193548387075" y="-14.5" />
+              <point x="1678.8778373817265" y="1182.0" />
+              <point x="256.0636420811886" y="1182.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="lola" target="docile">
+              <point x="-6.5" y="-14.5" />
+              <point x="707.0636420811886" y="863.0" />
+              <point x="693.5636420811886" y="863.0" />
+              <point x="16.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="hashie">
+              <point x="-29.096774193548526" y="-14.5" />
+              <point x="1684.555256736565" y="1142.0" />
+              <point x="457.8136420811886" y="1142.0" />
+              <point x="-16.25" y="14.5" />
+            </edge>
+            <edge source="coffee-script" target="execjs">
+              <point x="24.75" y="-14.5" />
+              <point x="600.8136420811886" y="674.0" />
+              <point x="355.1469754145219" y="674.0" />
+              <point x="21.33333333333333" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="coffee-script">
+              <point x="-27.677419354838776" y="-14.5" />
+              <point x="1685.9746115752748" y="1132.0" />
+              <point x="551.3136420811886" y="1132.0" />
+              <point x="-24.75" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="rails">
+              <point x="-6.387096774193651" y="-14.5" />
+              <point x="1707.26493415592" y="982.0" />
+              <point x="1480.3804400210227" y="982.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="i18n" target="concurrent-ruby">
+              <point x="0.0" y="-14.5" />
+              <point x="1583.203830253232" y="59.0" />
+              <point x="1979.5801743392535" y="59.0" />
+              <point x="-14.5" y="14.5" />
+            </edge>
+            <edge source="rails" target="actionpack">
+              <point x="9.63636363636374" y="-14.5" />
+              <point x="1490.0168036573864" y="813.0" />
+              <point x="1562.6986218392046" y="813.0" />
+              <point x="1562.6986218392046" y="644.0" />
+              <point x="1690.3009369409215" y="644.0" />
+              <point x="-22.25" y="14.5" />
+            </edge>
+            <edge source="actionpack" target="rack-test">
+              <point x="37.08333333333326" y="-14.5" />
+              <point x="1749.6342702742545" y="515.0" />
+              <point x="2330.9117083494684" y="515.0" />
+              <point x="-19.25" y="14.5" />
+            </edge>
+            <edge source="railties" target="activesupport">
+              <point x="-13.400000000000091" y="-14.5" />
+              <point x="1671.5520309301135" y="584.0" />
+              <point x="1657.3495928548998" y="584.0" />
+              <point x="1657.3495928548998" y="267.0" />
+              <point x="1570.703830253232" y="267.0" />
+              <point x="13.0" y="14.5" />
+            </edge>
+            <edge source="web-console" target="actionview">
+              <point x="-12.5" y="-14.5" />
+              <point x="1630.9579261882332" y="813.0" />
+              <point x="1625.3520309301136" y="813.0" />
+              <point x="1625.3520309301136" y="515.0" />
+              <point x="1323.183333333333" y="515.0" />
+              <point x="17.59999999999991" y="14.5" />
+            </edge>
+            <edge source="rails" target="bundler">
+              <point x="-24.09090909090901" y="-14.5" />
+              <point x="1456.2895309301136" y="813.0" />
+              <point x="790.5636420811886" y="813.0" />
+              <point x="24.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="multi_json">
+              <point x="26.258064516129025" y="-14.5" />
+              <point x="1739.9100954462426" y="1122.0" />
+              <point x="2683.9284457478007" y="1122.0" />
+              <point x="21.25" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="ffi">
+              <point x="34.774193548387075" y="-14.5" />
+              <point x="1748.4262244785007" y="1182.0" />
+              <point x="2893.4284457478007" y="1182.0" />
+              <point x="2893.4284457478007" y="416.0" />
+              <point x="2863.9284457478007" y="416.0" />
+              <point x="10.75" y="14.5" />
+            </edge>
+            <edge source="activesupport" target="minitest">
+              <point x="-39.0" y="-14.5" />
+              <point x="1518.703830253232" y="128.0" />
+              <point x="522.7460548423937" y="128.0" />
+              <point x="18.5" y="14.5" />
+            </edge>
+            <edge source="activejob" target="activesupport">
+              <point x="20.0" y="-14.5" />
+              <point x="1176.0636420811888" y="485.0" />
+              <point x="1046.5595700307979" y="485.0" />
+              <point x="1046.5595700307979" y="237.0" />
+              <point x="1518.703830253232" y="237.0" />
+              <point x="-39.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="activejob">
+              <point x="-12.0645161290322" y="-14.5" />
+              <point x="1701.5875148010814" y="1022.0" />
+              <point x="1097.0846774193546" y="1022.0" />
+              <point x="1097.0846774193546" y="694.0" />
+              <point x="1129.3969754145219" y="694.0" />
+              <point x="-26.666666666666742" y="14.5" />
+            </edge>
+            <edge source="sass-listen" target="rb-inotify">
+              <point x="21.25" y="-14.5" />
+              <point x="2715.6784457478007" y="515.0" />
+              <point x="2822.1784457478007" y="515.0" />
+              <point x="-20.25" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="rake">
+              <point x="-20.58064516129025" y="-14.5" />
+              <point x="1693.0713857688233" y="1082.0" />
+              <point x="850.5636420811886" y="1082.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="thread_safe">
+              <point x="36.193548387096826" y="-14.5" />
+              <point x="1749.8455793172104" y="1192.0" />
+              <point x="2894.84780058651" y="1192.0" />
+              <point x="-23.0" y="14.5" />
+            </edge>
+            <edge source="actionview" target="builder">
+              <point x="-35.200000000000045" y="-14.5" />
+              <point x="1270.3833333333332" y="386.0" />
+              <point x="167.81364208118862" y="386.0" />
+              <point x="17.25" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="tilt">
+              <point x="12.0645161290322" y="-14.5" />
+              <point x="1725.7165470591458" y="1022.0" />
+              <point x="2245.6617083494684" y="1022.0" />
+              <point x="2245.6617083494684" y="873.0" />
+              <point x="2259.1617083494684" y="873.0" />
+              <point x="-11.5" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="websocket-driver">
+              <point x="7.8064516129031745" y="-14.5" />
+              <point x="1721.4584825430168" y="992.0" />
+              <point x="2098.2020309301133" y="992.0" />
+              <point x="30.75" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="nio4r">
+              <point x="4.9677419354839" y="-14.5" />
+              <point x="1718.6197728655975" y="972.0" />
+              <point x="1930.9520309301136" y="972.0" />
+              <point x="1930.9520309301136" y="644.0" />
+              <point x="1921.967603607588" y="644.0" />
+              <point x="14.75" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="activesupport">
+              <point x="17.741935483870975" y="-14.5" />
+              <point x="1731.3939664139846" y="1062.0" />
+              <point x="2399.1617083494684" y="1062.0" />
+              <point x="2399.1617083494684" y="237.0" />
+              <point x="1596.703830253232" y="237.0" />
+              <point x="39.0" y="14.5" />
+            </edge>
+            <edge source="actionmailer" target="actionpack">
+              <point x="39.200000000000045" y="-14.5" />
+              <point x="1243.4398787786536" y="634.0" />
+              <point x="1675.467603607588" y="634.0" />
+              <point x="-37.08333333333326" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="rack">
+              <point x="29.0967741935483" y="-14.5" />
+              <point x="1742.748805123662" y="1142.0" />
+              <point x="2747.4284457478007" y="1142.0" />
+              <point x="2747.4284457478007" y="416.0" />
+              <point x="2668.6784457478007" y="416.0" />
+              <point x="19.875" y="14.5" />
+            </edge>
+            <edge source="lola" target="hashie">
+              <point x="-19.5" y="-14.5" />
+              <point x="694.0636420811886" y="873.0" />
+              <point x="490.3136420811886" y="873.0" />
+              <point x="16.25" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="execjs">
+              <point x="-33.35483870967755" y="-14.5" />
+              <point x="1680.297192220436" y="1172.0" />
+              <point x="333.8136420811886" y="1172.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="rails" target="actionview">
+              <point x="-9.63636363636374" y="-14.5" />
+              <point x="1470.744076384659" y="783.0" />
+              <point x="1308.1324104096345" y="783.0" />
+              <point x="1308.1324104096345" y="515.0" />
+              <point x="1305.583333333333" y="515.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="actionview" target="erubi">
+              <point x="-17.59999999999991" y="-14.5" />
+              <point x="1287.9833333333331" y="376.0" />
+              <point x="405.8136420811886" y="376.0" />
+              <point x="14.75" y="14.5" />
+            </edge>
+            <edge source="rails" target="actioncable">
+              <point x="19.272727272727252" y="-14.5" />
+              <point x="1499.65316729375" y="863.0" />
+              <point x="1850.7020309301136" y="863.0" />
+              <point x="-23.25" y="14.5" />
+            </edge>
+            <edge source="sass" target="sass-listen">
+              <point x="0.0" y="-14.5" />
+              <point x="2544.6784457478007" y="694.0" />
+              <point x="2673.1784457478007" y="694.0" />
+              <point x="-21.25" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="jbuilder">
+              <point x="24.838709677419274" y="-14.5" />
+              <point x="1738.4907406075329" y="1112.0" />
+              <point x="2627.6784457478007" y="1112.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="websocket-extensions">
+              <point x="9.225806451612925" y="-14.5" />
+              <point x="1722.8778373817265" y="1002.0" />
+              <point x="2139.4520309301133" y="1002.0" />
+              <point x="2139.4520309301133" y="505.0" />
+              <point x="2140.4520309301133" y="505.0" />
+              <point x="37.0" y="14.5" />
+            </edge>
+            <edge source="sprockets" target="concurrent-ruby">
+              <point x="-20.25" y="-14.5" />
+              <point x="2443.802281026943" y="515.0" />
+              <point x="2429.9117083494684" y="515.0" />
+              <point x="2429.9117083494684" y="59.0" />
+              <point x="2008.5801743392535" y="59.0" />
+              <point x="14.5" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="pg">
+              <point x="43.290322580645125" y="-14.5" />
+              <point x="1756.9423535107587" y="1242.0" />
+              <point x="3125.5797191021566" y="1242.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="rails" target="sprockets-rails">
+              <point x="24.09090909090901" y="-14.5" />
+              <point x="1504.4713491119317" y="873.0" />
+              <point x="1959.4520309301136" y="873.0" />
+              <point x="-36.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="turbolinks-source">
+              <point x="41.870967741935374" y="-14.5" />
+              <point x="1755.522998672049" y="1232.0" />
+              <point x="3092.0797191021566" y="1232.0" />
+              <point x="3092.0797191021566" y="873.0" />
+              <point x="3096.5797191021566" y="873.0" />
+              <point x="30.75" y="14.5" />
+            </edge>
+            <edge source="mail" target="mini_mime">
+              <point x="0.0" y="-14.5" />
+              <point x="1068.5636420811888" y="515.0" />
+              <point x="1130.8095700307977" y="515.0" />
+              <point x="22.5" y="14.5" />
+            </edge>
+            <edge source="activejob" target="globalid">
+              <point x="-20.0" y="-14.5" />
+              <point x="1136.0636420811888" y="495.0" />
+              <point x="955.5636420811886" y="495.0" />
+              <point x="19.0" y="14.5" />
+            </edge>
+            <edge source="activemodel" target="activesupport">
+              <point x="0.0" y="-14.5" />
+              <point x="1566.3520309301136" y="277.0" />
+              <point x="1562.0371635865652" y="277.0" />
+              <point x="4.3333333333332575" y="14.5" />
+            </edge>
+            <edge source="coffee-script" target="coffee-script-source">
+              <point x="-24.75" y="-14.5" />
+              <point x="551.3136420811886" y="684.0" />
+              <point x="247.31364208118862" y="684.0" />
+              <point x="34.5" y="14.5" />
+            </edge>
+            <edge source="sass-rails" target="sprockets">
+              <point x="15.799999999999955" y="-14.5" />
+              <point x="2311.461708349468" y="873.0" />
+              <point x="2314.0772810269427" y="873.0" />
+              <point x="2314.0772810269427" y="694.0" />
+              <point x="2464.052281026943" y="694.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="mail">
+              <point x="-13.48387096774195" y="-14.5" />
+              <point x="1700.1681599623716" y="1032.0" />
+              <point x="1054.8136420811888" y="1032.0" />
+              <point x="-13.75" y="14.5" />
+            </edge>
+            <edge source="railties" target="method_source">
+              <point x="13.400000000000091" y="-14.5" />
+              <point x="1698.3520309301136" y="664.0" />
+              <point x="2177.9520309301133" y="664.0" />
+              <point x="-28.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="loofah">
+              <point x="-39.0322580645161" y="-14.5" />
+              <point x="1674.6197728655975" y="1212.0" />
+              <point x="105.56364208118862" y="1212.0" />
+              <point x="-16.5" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="turbolinks">
+              <point x="40.45161290322585" y="-14.5" />
+              <point x="1754.1036438333394" y="1222.0" />
+              <point x="3039.5797191021566" y="1222.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="tzinfo" target="thread_safe">
+              <point x="0.0" y="-14.5" />
+              <point x="2936.34780058651" y="59.0" />
+              <point x="2940.84780058651" y="59.0" />
+              <point x="23.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="bindex">
+              <point x="2.129032258064626" y="-14.5" />
+              <point x="1715.7810631881782" y="952.0" />
+              <point x="1790.4520309301136" y="952.0" />
+              <point x="17.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="tzinfo-data">
+              <point x="39.0322580645161" y="-14.5" />
+              <point x="1752.6842889946297" y="1212.0" />
+              <point x="2987.0797191021566" y="1212.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="rack-test">
+              <point x="16.322580645161224" y="-14.5" />
+              <point x="1729.9746115752748" y="1052.0" />
+              <point x="2369.4117083494684" y="1052.0" />
+              <point x="19.25" y="14.5" />
+            </edge>
+            <edge source="actionpack" target="rails-html-sanitizer">
+              <point x="-22.25" y="-14.5" />
+              <point x="1690.3009369409215" y="515.0" />
+              <point x="1699.8842702742547" y="515.0" />
+              <point x="1699.8842702742547" y="356.0" />
+              <point x="1224.7628137737659" y="356.0" />
+              <point x="43.66666666666674" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="sprockets">
+              <point x="19.161290322580726" y="-14.5" />
+              <point x="1732.8133212526943" y="1072.0" />
+              <point x="2474.6784457478007" y="1072.0" />
+              <point x="2474.6784457478007" y="694.0" />
+              <point x="2491.052281026943" y="694.0" />
+              <point x="27.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="globalid">
+              <point x="-17.741935483870975" y="-14.5" />
+              <point x="1695.9100954462426" y="1062.0" />
+              <point x="917.5636420811886" y="1062.0" />
+              <point x="-19.0" y="14.5" />
+            </edge>
+            <edge source="rails-dom-testing" target="activesupport">
+              <point x="30.75" y="-14.5" />
+              <point x="1363.1158383592435" y="247.0" />
+              <point x="1527.3704969198986" y="247.0" />
+              <point x="-30.333333333333258" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="tzinfo">
+              <point x="37.61290322580635" y="-14.5" />
+              <point x="1751.26493415592" y="1202.0" />
+              <point x="2931.0797191021566" y="1202.0" />
+              <point x="2931.0797191021566" y="148.0" />
+              <point x="2936.34780058651" y="148.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="rack-test" target="rack">
+              <point x="0.0" y="-14.5" />
+              <point x="2350.1617083494684" y="416.0" />
+              <point x="2642.1784457478007" y="416.0" />
+              <point x="-6.625" y="14.5" />
+            </edge>
+            <edge source="activerecord" target="arel">
+              <point x="-32.333333333333485" y="-14.5" />
+              <point x="1466.5471066876892" y="624.0" />
+              <point x="1383.1835914992855" y="624.0" />
+              <point x="13.0" y="14.5" />
+            </edge>
+            <edge source="activesupport" target="concurrent-ruby">
+              <point x="-13.0" y="-14.5" />
+              <point x="1545.703830253232" y="49.0" />
+              <point x="1950.5801743392535" y="49.0" />
+              <point x="-43.5" y="14.5" />
+            </edge>
+            <edge source="loofah" target="nokogiri">
+              <point x="16.5" y="-14.5" />
+              <point x="138.56364208118862" y="148.0" />
+              <point x="175.9127215090607" y="148.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="actionpack" target="rails-dom-testing">
+              <point x="-7.4166666666667425" y="-14.5" />
+              <point x="1705.1342702742545" y="515.0" />
+              <point x="1710.8842702742547" y="515.0" />
+              <point x="1710.8842702742547" y="346.0" />
+              <point x="1378.4908383592435" y="346.0" />
+              <point x="46.125" y="14.5" />
+            </edge>
+            <edge source="sass-rails" target="sass">
+              <point x="31.59999999999991" y="-14.5" />
+              <point x="2327.261708349468" y="873.0" />
+              <point x="2531.6784457478007" y="873.0" />
+              <point x="-13.0" y="14.5" />
+            </edge>
+            <edge source="websocket-driver" target="websocket-extensions">
+              <point x="0.0" y="-14.5" />
+              <point x="-37.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="coffee-script-source">
+              <point x="-36.193548387096826" y="-14.5" />
+              <point x="1677.4584825430168" y="1192.0" />
+              <point x="178.31364208118862" y="1192.0" />
+              <point x="-34.5" y="14.5" />
+            </edge>
+            <edge source="uglifier" target="execjs">
+              <point x="0.0" y="-14.5" />
+              <point x="256.0636420811886" y="694.0" />
+              <point x="312.48030874785536" y="694.0" />
+              <point x="-21.333333333333332" y="14.5" />
+            </edge>
+            <edge source="rails" target="railties">
+              <point x="14.454545454545496" y="-14.5" />
+              <point x="1494.8349854755681" y="833.0" />
+              <point x="1671.5520309301135" y="833.0" />
+              <point x="-13.400000000000091" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="rb-inotify">
+              <point x="33.354838709677324" y="-14.5" />
+              <point x="1747.006869639791" y="1172.0" />
+              <point x="2862.6784457478007" y="1172.0" />
+              <point x="20.25" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="arel">
+              <point x="-7.8064516129031745" y="-14.5" />
+              <point x="1705.8455793172104" y="992.0" />
+              <point x="1284.6829969198984" y="992.0" />
+              <point x="1284.6829969198984" y="624.0" />
+              <point x="1357.1835914992855" y="624.0" />
+              <point x="-13.0" y="14.5" />
+            </edge>
+            <edge source="actionpack" target="activesupport">
+              <point x="7.4166666666667425" y="-14.5" />
+              <point x="1719.967603607588" y="515.0" />
+              <point x="1721.8842702742547" y="515.0" />
+              <point x="1721.8842702742547" y="257.0" />
+              <point x="1579.3704969198986" y="257.0" />
+              <point x="21.666666666666742" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="actionmailer">
+              <point x="-10.645161290322676" y="-14.5" />
+              <point x="1703.006869639791" y="1012.0" />
+              <point x="1179.7398787786533" y="1012.0" />
+              <point x="-24.5" y="14.5" />
+            </edge>
+            <edge source="web-console" target="railties">
+              <point x="12.5" y="-14.5" />
+              <point x="1655.9579261882332" y="843.0" />
+              <point x="1684.9520309301136" y="843.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="bundler">
+              <point x="-23.41935483870975" y="-14.5" />
+              <point x="1690.2326760914038" y="1102.0" />
+              <point x="766.5636420811886" y="1102.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="rb-inotify" target="ffi">
+              <point x="0.0" y="-14.5" />
+              <point x="-10.75" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="method_source">
+              <point x="10.645161290322676" y="-14.5" />
+              <point x="1724.2971922204363" y="1012.0" />
+              <point x="2233.9520309301133" y="1012.0" />
+              <point x="28.0" y="14.5" />
+            </edge>
+            <edge source="coffee-rails" target="coffee-script">
+              <point x="-23.0" y="-14.5" />
+              <point x="951.0636420811887" y="853.0" />
+              <point x="600.8136420811886" y="853.0" />
+              <point x="24.75" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="rails-html-sanitizer">
+              <point x="-22.0" y="-14.5" />
+              <point x="1691.6520309301136" y="1092.0" />
+              <point x="813.0636420811886" y="1092.0" />
+              <point x="813.0636420811886" y="396.0" />
+              <point x="1137.4294804404324" y="396.0" />
+              <point x="-43.66666666666674" y="14.5" />
+            </edge>
+            <edge source="sprockets" target="rack">
+              <point x="20.25" y="-14.5" />
+              <point x="2484.302281026943" y="495.0" />
+              <point x="2655.4284457478007" y="495.0" />
+              <point x="6.625" y="14.5" />
+            </edge>
+            <edge source="actioncable" target="nio4r">
+              <point x="0.0" y="-14.5" />
+              <point x="1873.9520309301136" y="654.0" />
+              <point x="1892.467603607588" y="654.0" />
+              <point x="-14.75" y="14.5" />
+            </edge>
+            <edge source="rails" target="activejob">
+              <point x="-14.454545454545496" y="-14.5" />
+              <point x="1465.9258945664772" y="793.0" />
+              <point x="1301.455724192626" y="793.0" />
+              <point x="1301.455724192626" y="604.0" />
+              <point x="1182.7303087478554" y="604.0" />
+              <point x="26.666666666666742" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="web-console">
+              <point x="-2.129032258064626" y="-14.5" />
+              <point x="1711.522998672049" y="952.0" />
+              <point x="1643.4579261882332" y="952.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="railties" target="rake">
+              <point x="-26.799999999999955" y="-14.5" />
+              <point x="1658.1520309301136" y="594.0" />
+              <point x="868.5636420811886" y="594.0" />
+              <point x="18.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="mini_mime">
+              <point x="-14.903225806451701" y="-14.5" />
+              <point x="1698.748805123662" y="1042.0" />
+              <point x="1030.5636420811888" y="1042.0" />
+              <point x="1030.5636420811888" y="505.0" />
+              <point x="1085.8095700307977" y="505.0" />
+              <point x="-22.5" y="14.5" />
+            </edge>
+            <edge source="actionmailer" target="actionview">
+              <point x="19.59999999999991" y="-14.5" />
+              <point x="1223.8398787786532" y="624.0" />
+              <point x="1257.8136420811888" y="624.0" />
+              <point x="1257.8136420811888" y="515.0" />
+              <point x="1270.3833333333332" y="515.0" />
+              <point x="-35.200000000000045" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="sass-listen">
+              <point x="27.677419354838776" y="-14.5" />
+              <point x="1741.3294502849524" y="1132.0" />
+              <point x="2715.6784457478007" y="1132.0" />
+              <point x="21.25" y="14.5" />
+            </edge>
+            <edge source="jbuilder" target="activesupport">
+              <point x="-18.0" y="-14.5" />
+              <point x="2609.6784457478007" y="505.0" />
+              <point x="2758.4284457478007" y="505.0" />
+              <point x="2758.4284457478007" y="416.0" />
+              <point x="2780.4284457478007" y="416.0" />
+              <point x="2780.4284457478007" y="227.0" />
+              <point x="1605.3704969198984" y="227.0" />
+              <point x="47.666666666666515" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="coffee-rails">
+              <point x="-16.322580645161224" y="-14.5" />
+              <point x="1697.3294502849524" y="1052.0" />
+              <point x="974.0636420811887" y="1052.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="concurrent-ruby">
+              <point x="31.9354838709678" y="-14.5" />
+              <point x="1745.5875148010814" y="1162.0" />
+              <point x="2791.4284457478007" y="1162.0" />
+              <point x="2791.4284457478007" y="49.0" />
+              <point x="2037.5801743392535" y="49.0" />
+              <point x="43.5" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="crass">
+              <point x="-41.8709677419356" y="-14.5" />
+              <point x="1671.781063188178" y="1232.0" />
+              <point x="24.75" y="1232.0" />
+              <point x="-14.25" y="14.5" />
+            </edge>
+            <edge source="rails" target="activerecord">
+              <point x="0.0" y="-14.5" />
+              <point x="1480.3804400210227" y="763.0" />
+              <point x="1474.6304400210227" y="763.0" />
+              <point x="-24.25" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="rb-fsevent">
+              <point x="23.41935483870975" y="-14.5" />
+              <point x="1737.0713857688233" y="1102.0" />
+              <point x="2581.1784457478007" y="1102.0" />
+              <point x="-21.25" y="14.5" />
+            </edge>
+            <edge source="globalid" target="activesupport">
+              <point x="0.0" y="-14.5" />
+              <point x="936.5636420811886" y="227.0" />
+              <point x="1510.0371635865652" y="227.0" />
+              <point x="-47.66666666666674" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="nokogiri">
+              <point x="-40.45161290322585" y="-14.5" />
+              <point x="1673.2004180268877" y="1222.0" />
+              <point x="58.898319500543494" y="1222.0" />
+              <point x="58.898319500543494" y="138.0" />
+              <point x="150.57938817572744" y="138.0" />
+              <point x="-25.333333333333258" y="14.5" />
+            </edge>
+            <edge source="sprockets-rails" target="sprockets">
+              <point x="36.0" y="-14.5" />
+              <point x="2031.4520309301136" y="684.0" />
+              <point x="2437.052281026943" y="684.0" />
+              <point x="-27.0" y="14.5" />
+            </edge>
+            <edge source="lola" target="rake">
+              <point x="6.5" y="-14.5" />
+              <point x="720.0636420811886" y="694.0" />
+              <point x="832.5636420811886" y="694.0" />
+              <point x="-18.0" y="14.5" />
+            </edge>
+            <edge source="rails" target="activemodel">
+              <point x="4.818181818181756" y="-14.5" />
+              <point x="1485.1986218392044" y="803.0" />
+              <point x="1557.8804400210227" y="803.0" />
+              <point x="1557.8804400210227" y="624.0" />
+              <point x="1554.2270309301136" y="624.0" />
+              <point x="-12.125" y="14.5" />
+            </edge>
+            <edge source="railties" target="thor">
+              <point x="26.799999999999955" y="-14.5" />
+              <point x="1711.7520309301135" y="674.0" />
+              <point x="2319.1617083494684" y="674.0" />
+              <point x="-13.25" y="14.5" />
+            </edge>
+            <edge source="actionpack" target="actionview">
+              <point x="-37.08333333333326" y="-14.5" />
+              <point x="1675.467603607588" y="505.0" />
+              <point x="1340.7833333333333" y="505.0" />
+              <point x="35.200000000000045" y="14.5" />
+            </edge>
+            <edge source="lola" target="bundler">
+              <point x="19.5" y="-14.5" />
+              <point x="733.0636420811886" y="873.0" />
+              <point x="742.5636420811886" y="873.0" />
+              <point x="-24.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="puma">
+              <point x="20.58064516129025" y="-14.5" />
+              <point x="1734.2326760914038" y="1082.0" />
+              <point x="2516.1784457478007" y="1082.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="railties">
+              <point x="-0.7096774193548754" y="-14.5" />
+              <point x="1712.9423535107587" y="942.0" />
+              <point x="1703.9579261882332" y="942.0" />
+              <point x="1703.9579261882332" y="843.0" />
+              <point x="1698.3520309301136" y="843.0" />
+              <point x="13.400000000000091" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="thor">
+              <point x="14.903225806451701" y="-14.5" />
+              <point x="1728.5552567365653" y="1042.0" />
+              <point x="2345.6617083494684" y="1042.0" />
+              <point x="13.25" y="14.5" />
+            </edge>
+            <edge source="activesupport" target="tzinfo">
+              <point x="39.0" y="-14.5" />
+              <point x="1596.703830253232" y="148.0" />
+              <point x="2915.681133919844" y="148.0" />
+              <point x="-20.666666666666515" y="14.5" />
+            </edge>
+            <edge source="jbuilder" target="multi_json">
+              <point x="18.0" y="-14.5" />
+              <point x="2645.6784457478007" y="873.0" />
+              <point x="2641.4284457478007" y="873.0" />
+              <point x="-21.25" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="sass-rails">
+              <point x="13.48387096774195" y="-14.5" />
+              <point x="1727.1359018978555" y="1032.0" />
+              <point x="2295.6617083494684" y="1032.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="activesupport" target="i18n">
+              <point x="13.0" y="-14.5" />
+              <point x="-13.5" y="14.5" />
+            </edge>
+            <edge source="web-console" target="bindex">
+              <point x="37.5" y="-14.5" />
+              <point x="1680.9579261882332" y="853.0" />
+              <point x="1756.4520309301136" y="853.0" />
+              <point x="-17.0" y="14.5" />
+            </edge>
+            <edge source="actionmailer" target="mail">
+              <point x="-39.200000000000045" y="-14.5" />
+              <point x="1165.0398787786535" y="684.0" />
+              <point x="1082.3136420811888" y="684.0" />
+              <point x="13.75" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="rails-dom-testing">
+              <point x="-19.161290322580726" y="-14.5" />
+              <point x="1694.4907406075329" y="1072.0" />
+              <point x="888.0636420811886" y="1072.0" />
+              <point x="888.0636420811886" y="406.0" />
+              <point x="1286.2408383592435" y="406.0" />
+              <point x="-46.125" y="14.5" />
+            </edge>
+            <edge source="coffee-rails" target="railties">
+              <point x="23.0" y="-14.5" />
+              <point x="997.0636420811887" y="823.0" />
+              <point x="1658.1520309301136" y="823.0" />
+              <point x="-26.799999999999955" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="i18n">
+              <point x="30.51612903225805" y="-14.5" />
+              <point x="1744.1681599623716" y="1152.0" />
+              <point x="2769.4284457478007" y="1152.0" />
+              <point x="2769.4284457478007" y="138.0" />
+              <point x="1596.703830253232" y="138.0" />
+              <point x="13.5" y="14.5" />
+            </edge>
+            <edge source="actionmailer" target="activejob">
+              <point x="-19.59999999999991" y="-14.5" />
+              <point x="1184.6398787786534" y="674.0" />
+              <point x="1156.0636420811888" y="674.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="actioncable" target="actionpack">
+              <point x="-31.0" y="-14.5" />
+              <point x="1842.9520309301136" y="654.0" />
+              <point x="1734.8009369409215" y="654.0" />
+              <point x="22.25" y="14.5" />
+            </edge>
+            <edge source="rails-html-sanitizer" target="loofah">
+              <point x="0.0" y="-14.5" />
+              <point x="1181.0961471070991" y="217.0" />
+              <point x="138.56364208118862" y="217.0" />
+              <point x="16.5" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="actioncable">
+              <point x="3.5483870967741495" y="-14.5" />
+              <point x="1717.2004180268877" y="962.0" />
+              <point x="1897.2020309301136" y="962.0" />
+              <point x="23.25" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="actionview">
+              <point x="-9.225806451612925" y="-14.5" />
+              <point x="1704.4262244785007" y="1002.0" />
+              <point x="1283.2636420811887" y="1002.0" />
+              <point x="1283.2636420811887" y="515.0" />
+              <point x="1287.9833333333331" y="515.0" />
+              <point x="-17.59999999999991" y="14.5" />
+            </edge>
+            <edge source="sprockets-rails" target="activesupport">
+              <point x="0.0" y="-14.5" />
+              <point x="1995.4520309301136" y="247.0" />
+              <point x="1588.0371635865652" y="247.0" />
+              <point x="30.333333333333258" y="14.5" />
+            </edge>
+            <edge source="actionpack" target="rack">
+              <point x="22.25" y="-14.5" />
+              <point x="1734.8009369409215" y="505.0" />
+              <point x="1754.5676743392532" y="505.0" />
+              <point x="1754.5676743392532" y="406.0" />
+              <point x="2628.9284457478007" y="406.0" />
+              <point x="-19.875" y="14.5" />
+            </edge>
+            <edge source="loofah" target="crass">
+              <point x="-16.5" y="-14.5" />
+              <point x="105.56364208118862" y="128.0" />
+              <point x="53.25" y="128.0" />
+              <point x="14.25" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="erubi">
+              <point x="-31.9354838709678" y="-14.5" />
+              <point x="1681.7165470591458" y="1162.0" />
+              <point x="376.3136420811886" y="1162.0" />
+              <point x="-14.75" y="14.5" />
+            </edge>
+            <edge source="turbolinks" target="turbolinks-source">
+              <point x="0.0" y="-14.5" />
+              <point x="3039.5797191021566" y="873.0" />
+              <point x="3035.0797191021566" y="873.0" />
+              <point x="-30.75" y="14.5" />
+            </edge>
+            <edge source="web-console" target="activemodel">
+              <point x="-37.5" y="-14.5" />
+              <point x="1605.9579261882332" y="813.0" />
+              <point x="1604.6454261882332" y="813.0" />
+              <point x="1604.6454261882332" y="624.0" />
+              <point x="1602.7270309301136" y="624.0" />
+              <point x="36.375" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="docile">
+              <point x="-26.258064516129025" y="-14.5" />
+              <point x="1687.3939664139846" y="1122.0" />
+              <point x="661.5636420811886" y="1122.0" />
+              <point x="-16.0" y="14.5" />
+            </edge>
+            <edge source="rails" target="activesupport">
+              <point x="-4.818181818181756" y="-14.5" />
+              <point x="1475.562258202841" y="773.0" />
+              <point x="1439.8804400210227" y="773.0" />
+              <point x="1439.8804400210227" y="267.0" />
+              <point x="1544.703830253232" y="267.0" />
+              <point x="-13.0" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="lola">
+              <point x="-24.838709677419274" y="-14.5" />
+              <point x="1688.8133212526943" y="1112.0" />
+              <point x="713.5636420811886" y="1112.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="activerecord" target="activemodel">
+              <point x="32.333333333333485" y="-14.5" />
+              <point x="1531.2137733543561" y="624.0" />
+              <point x="1529.9770309301136" y="624.0" />
+              <point x="-36.375" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="builder">
+              <point x="-37.612903225806576" y="-14.5" />
+              <point x="1676.039127704307" y="1202.0" />
+              <point x="133.31364208118862" y="1202.0" />
+              <point x="-17.25" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="minitest">
+              <point x="-30.51612903225805" y="-14.5" />
+              <point x="1683.1359018978555" y="1152.0" />
+              <point x="431.0636420811886" y="1152.0" />
+              <point x="431.0636420811886" y="148.0" />
+              <point x="485.74605484239373" y="148.0" />
+              <point x="-18.5" y="14.5" />
+            </edge>
+            <edge source="sass-rails" target="sprockets-rails">
+              <point x="-15.799999999999955" y="-14.5" />
+              <point x="2279.8617083494682" y="833.0" />
+              <point x="2031.4520309301136" y="833.0" />
+              <point x="36.0" y="14.5" />
+            </edge>
+            <edge source="railties" target="actionpack">
+              <point x="0.0" y="-14.5" />
+              <point x="1684.9520309301136" y="654.0" />
+              <point x="1705.1342702742545" y="654.0" />
+              <point x="-7.4166666666667425" y="14.5" />
+            </edge>
+            <edge source="activerecord" target="activesupport">
+              <point x="0.0" y="-14.5" />
+              <point x="1498.8804400210227" y="277.0" />
+              <point x="1553.3704969198986" y="277.0" />
+              <point x="-4.3333333333332575" y="14.5" />
+            </edge>
+            <edge source="#demo-app" target="sass">
+              <point x="22.0" y="-14.5" />
+              <point x="1735.6520309301136" y="1092.0" />
+              <point x="2557.6784457478007" y="1092.0" />
+              <point x="13.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.45578720345075485" x="460.0" y="517.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ru">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.rakeTasks">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/restart.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/item.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="59" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/auction.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bundle/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2516">
+          <caret line="148" column="7" selection-start-line="148" selection-start-column="7" selection-end-line="148" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="812cb448-cedc-4a8e-92b2-1a23fefc88cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/bidding-platform.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/application_record.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/concerns/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/bundle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/rails" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/rake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/update" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/yarn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/boot.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/cable.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/credentials.yml.enc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/environment.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/environments/test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/lola_setup.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/puma.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/storage.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/assets/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tasks/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/422.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/application_system_test_case.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/files/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/helpers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/mailers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/system/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/.idea/.generators" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/.idea/.rakeTasks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/.idea/dataSources/c3d692e1-a961-4046-98e0-8b688736c0d1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/.idea/dataSources/c3d692e1-a961-4046-98e0-8b688736c0d1/storage_v2/_src_/database/production.ufB8aA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/.idea/dataSources/c3d692e1-a961-4046-98e0-8b688736c0d1/storage_v2/_src_/database/production.ufB8aA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/.idea/demo-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/app/assets/javascripts/auctions.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/app/assets/stylesheets/auctions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/app/controllers/auctions_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/app/helpers/auctions_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/app/models/auction.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/app/views/auctions/_auction.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/app/views/auctions/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/app/views/auctions/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/app/views/auctions/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/app/views/auctions/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/app/views/auctions/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/app/views/auctions/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/app/views/auctions/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/db/migrate/20180912184458_create_auctions.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/test/controllers/auctions_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/test/fixtures/auctions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/test/integration/auction_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/test/models/auction_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/demo-app/test/system/auctions_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.rspec" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/.rspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/setup" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/bin/setup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo-app/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/../examples/demo-app/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo-app/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../examples/demo-app/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo-app/app/models/item.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../examples/demo-app/app/models/item.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo-app/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../examples/demo-app/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo-app/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../examples/demo-app/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examples/demo-app/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../examples/demo-app/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exe/lola" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/exe/lola" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/dsl/model.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/dsl/model.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/dsl/spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/dsl/spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/errors/evaluation_error.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/errors/evaluation_error.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/errors/mapping_error.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/errors/mapping_error.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/errors/trigger_error.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/errors/trigger_error.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/errors/type_error.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/errors/type_error.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/query/data.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/query/data.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/query/joinable.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/query/joinable.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/query/look_back.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/query/look_back.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/query/not.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/query/not.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/query/query.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/query/query.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/query/source.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/query/source.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/store/class_callback.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/store/class_callback.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/store/data_store.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/store/data_store.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/store/stream.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/store/stream.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/types/type.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/types/type.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/lola/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lib/lola/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lola.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/lola.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spec/active_record_shim.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/spec/active_record_shim.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spec/lola_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/spec/lola_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../lola-ruby/spec/spec_helper.rb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/bidding_platform@All_tests_in_test__bidding_platform.rcov" NAME="All tests in test: bidding-platform Coverage Results" MODIFIED="1536792328710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bidding-platform" />
+    <SUITE FILE_PATH="coverage/bidding_platform@db_migrate__bidding_platform.rcov" NAME="db:migrate: bidding-platform Coverage Results" MODIFIED="1536791278401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bidding-platform" />
+    <SUITE FILE_PATH="coverage/bidding_platform@db_create__bidding_platform.rcov" NAME="db:create: bidding-platform Coverage Results" MODIFIED="1536790884745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bidding-platform" />
+    <SUITE FILE_PATH="coverage/bidding_platform@Run_test__auction_test___bidding_platform.rcov" NAME="Run test 'auction_test': bidding-platform Coverage Results" MODIFIED="1536792530858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bidding-platform" />
+    <SUITE FILE_PATH="coverage/bidding_platform@Development__bidding_platform.rcov" NAME="Development: bidding-platform Coverage Results" MODIFIED="1536790998252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bidding-platform" />
+    <SUITE FILE_PATH="coverage/bidding_platform@db_drop__bidding_platform.rcov" NAME="db:drop: bidding-platform Coverage Results" MODIFIED="1536790853714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bidding-platform" />
+    <SUITE FILE_PATH="coverage/bidding_platform@All_tests_in_integration__bidding_platform.rcov" NAME="All tests in integration: bidding-platform Coverage Results" MODIFIED="1536792440639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bidding-platform" />
+    <SUITE FILE_PATH="coverage/bidding_platform@All_tests_in_config__bidding_platform.rcov" NAME="All tests in config: bidding-platform Coverage Results" MODIFIED="1536791218617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bidding-platform" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="855699883">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Gemfile" value="1" />
+          <entry key="rb" value="1" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Ruby" value="2" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Gemfile" value="7" />
+          <entry key="txt" value="42" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="Ruby" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="279891330">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Gemfile" value="12" />
+          <entry key="rb" value="168" />
+          <entry key="txt" value="69" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="69" />
+          <entry key="Ruby" value="180" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="rb" value="22" />
+          <entry key="scss" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Ruby" value="22" />
+          <entry key="SCSS" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/auction.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GeneratorOptions">
+    <option name="VCS_SHOW_CONFIRMATION" value="true" />
+    <option name="ENVIRONMENT" value="development" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/db/migrate/20180912221651_create_items.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20180912221616_create_auctions.rb" />
+        <option value="$PROJECT_DIR$/app/models/item.rb" />
+        <option value="$PROJECT_DIR$/test/models/auction_test.rb" />
+        <option value="$PROJECT_DIR$/test/integration/auction_test.rb" />
+        <option value="$PROJECT_DIR$/app/models/auction.rb" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1270" />
+    <option name="width" value="1300" />
+    <option name="height" value="705" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bidding-platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidding-platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bidding-platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidding-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bidding-platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidding-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bidding-platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidding-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bidding-platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidding-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bidding-platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidding-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bidding-platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidding-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="mailers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bidding-platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidding-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bidding-platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidding-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
+    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lola-ruby" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marvi\Documents\lola-ruby\bidding-platform\config\initializers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'auction_test': bidding-platform">
+    <configuration name="Development: bidding-platform" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="bidding-platform" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Production: bidding-platform" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="bidding-platform" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="db:migrate: bidding-platform" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="bidding-platform" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: bidding-platform" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="bidding-platform" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: bidding-platform" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="bidding-platform" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="All tests in config: bidding-platform" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="bidding-platform" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/config" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*,*_spec}.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="All tests in integration: bidding-platform" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="bidding-platform" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/test/integration" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*,*_spec}.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="All tests in test: bidding-platform" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="bidding-platform" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*,*_spec}.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run test 'auction_test': bidding-platform" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="bidding-platform" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/integration/auction_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Rake.test: bidding-platform" />
+      <item itemvalue="Rake.spec: bidding-platform" />
+      <item itemvalue="Rails.Production: bidding-platform" />
+      <item itemvalue="Rails.Development: bidding-platform" />
+      <item itemvalue="Rake.db:migrate: bidding-platform" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in config: bidding-platform" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: bidding-platform" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'auction_test': bidding-platform" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in integration: bidding-platform" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'auction_test': bidding-platform" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in integration: bidding-platform" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: bidding-platform" />
+        <item itemvalue="Rake.db:migrate: bidding-platform" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in config: bidding-platform" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="812cb448-cedc-4a8e-92b2-1a23fefc88cc" name="Default Changelist" comment="" />
+      <created>1536789437352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536789437352</updated>
+      <workItem from="1536789439950" duration="550000" />
+      <workItem from="1536790130148" duration="2469000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Run_test_'auction_test'__bidding-platform - 2018.09.13 at 00h 28m 18s.xml">
+      <configuration name="Run test 'auction_test': bidding-platform" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'auction_test'__bidding-platform - 2018.09.13 at 00h 29m 04s.xml">
+      <configuration name="Run test 'auction_test': bidding-platform" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'auction_test'__bidding-platform - 2018.09.13 at 00h 29m 27s.xml">
+      <configuration name="Run test 'auction_test': bidding-platform" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'auction_test'__bidding-platform - 2018.09.13 at 00h 41m 20s.xml">
+      <configuration name="Run test 'auction_test': bidding-platform" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'auction_test'__bidding-platform - 2018.09.13 at 00h 42m 30s.xml">
+      <configuration name="Run test 'auction_test': bidding-platform" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_test__bidding-platform - 2018.09.13 at 00h 43m 47s.xml">
+      <configuration name="All tests in test: bidding-platform" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_test__bidding-platform - 2018.09.13 at 00h 46m 08s.xml">
+      <configuration name="All tests in test: bidding-platform" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'auction_test'__bidding-platform - 2018.09.13 at 00h 46m 39s.xml">
+      <configuration name="Run test 'auction_test': bidding-platform" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_integration__bidding-platform - 2018.09.13 at 00h 47m 29s.xml">
+      <configuration name="All tests in integration: bidding-platform" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'auction_test'__bidding-platform - 2018.09.13 at 00h 49m 00s.xml">
+      <configuration name="Run test 'auction_test': bidding-platform" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3019000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25224775" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32908913" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32908913" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/auctions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180912221651_create_items.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180912221616_create_auctions.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/lola_setup.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/item.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/minitest-5.11.3/lib/minitest/assertions.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="138" column="8" lean-forward="true" selection-start-line="138" selection-start-column="8" selection-end-line="138" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/models/auction_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/railties-5.2.1/lib/rails/test_help.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/application_system_test_case.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/auction_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/system/items_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/system/auctions_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/auction.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

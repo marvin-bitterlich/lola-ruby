@@ -10,7 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180724170753) do
+ActiveRecord::Schema.define(version: 20180912184458) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "auctions", force: :cascade do |t|
+    t.bigint "item_id"
+    t.integer "amount"
+    t.string "bidder"
+    t.decimal "bid"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["item_id"], name: "index_auctions_on_item_id"
+  end
 
   create_table "items", force: :cascade do |t|
     t.decimal "price"
@@ -20,4 +33,5 @@ ActiveRecord::Schema.define(version: 20180724170753) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "auctions", "items"
 end

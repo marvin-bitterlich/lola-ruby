@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  item: one
+  amount: 1
+  bid: 9.99
+  bidder: MyString
+
+two:
+  item: two
+  amount: 1
+  bid: 9.99
+  bidder: MyString
